@@ -53,6 +53,6 @@
 		if (!(pokemon.baseSpecies.baseSpecies === 'Suicune')) return;
 		this.heal(pokemon.baseMaxhp / 16);
 	},
-	num: -2062,
+	num: -2060,
 	gen: 9,
 }

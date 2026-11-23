@@ -20,6 +20,6 @@
 	onModifyMove(move, pokemon) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Fearow') && move.id === 'furyattack') move.multihit = 5;
 	},
-	num: -2022,
+	num: -2020,
 	gen: 9,
 }

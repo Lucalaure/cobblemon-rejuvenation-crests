@@ -22,6 +22,6 @@
 		this.heal(pokemon.baseMaxhp / 8);
 		for (const ally of pokemon.adjacentAllies()) this.heal(ally.baseMaxhp / 16, ally, pokemon);
 	},
-	num: -2037,
+	num: -2035,
 	gen: 9,
 }

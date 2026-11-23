@@ -7,14 +7,16 @@ A Fabric add-on for [Cobblemon](https://cobblemon.com) that adds the **Crests** 
 
 ## What's in it
 
-71 crest items: every crest in Rejuvenation 14 that works on a standard Pokémon. Left out:
+119 crest items:
 
-- the Aevian Ampharos and Aevian Comfey crests, because they need Rejuvenation-only forms,
-- Unown's crest, because the game itself only has filler text for it.
+- **71 from Rejuvenation 14**: every crest that works on a standard Pokémon. Left out: the Aevian Ampharos and Aevian Comfey crests (they need Rejuvenation-only forms) and Unown's crest (the game only has filler text for it).
+- **48 from Crest Emporium**, KolinKat's Rejuvenation add-on, from Parasect and Delibird to Tyrantrum and Frosmoth. Left out: the crests built around Rejuvenation's field effects or custom items (Froslass, Trevenant, Porygon-Z, Lumineon, Kecleon, Furfrou, Wormadam, Vivillon, Mascot), Grumpig's crest (disabled in Emporium itself), and the Aevian and regional parts of the Leavanny, Sigilyph, Stunfisk and Avalugg crests.
+
+Crest Emporium also gives **female** Furret, Sunflora, Sawsbuck, Plusle and Minun a different crest effect. Here it's the same item: female holders get the Emporium effect, others keep the Rejuvenation one, and the tooltip shows both.
 
 Each crest has:
 
-- its original icon from the game,
+- its original icon from the game or from Crest Emporium,
 - a tooltip showing which Pokémon it's for and what it does,
 - a battle effect written as a Showdown item script, which Cobblemon's battle engine loads.
 
@@ -40,7 +42,7 @@ A B A     B = gem of its second type (3), or the same gem again for single-type 
 
 These are normal crafting-table recipes, so recipe viewers like JEI, REI and EMI show them automatically.
 
-For example, the Typhlosion Crest takes 7 Fire Gems and Blaze Powder, and the Luxray Crest takes 7 Electric Gems and a Magnet. The full list of signature items is in `scripts/generate_recipes.py`. Edit it and re-run the script to change any recipe.
+For example, the Typhlosion Crest takes 7 Fire Gems and Blaze Powder, and the Luxray Crest takes 7 Electric Gems and a Magnet. Signature items are listed in `scripts/generate_recipes.py` (Rejuvenation crests) and `scripts/emporium_crests.json` (Crest Emporium crests). Edit them and re-run `python scripts/generate_recipes.py` to change any recipe.
 
 As in Rejuvenation, a crest only works on the Pokémon it's made for, and it can't be knocked off, stolen or swapped away from that Pokémon.
 
@@ -55,7 +57,7 @@ As in Rejuvenation, a crest only works on the Pokémon it's made for, and it can
 
 Cobblemon loads every `data/<namespace>/held_items/*.js` file into its Showdown engine as a held item. It strips line breaks before loading, so **only use `/* */` comments in these scripts**: a `//` comment would swallow the rest of the file. The mod then maps each Minecraft item to its script with `CobblemonHeldItemManager.registerRemap`.
 
-The numbers come from Rejuvenation's own battle code (`Scripts/Rejuv/Battle/Battler.rb#crestStats`, `Battle_Move.rb` and friends), not just the in-game descriptions.
+The numbers come from the games' own battle code (Rejuvenation's `Scripts/Rejuv/Battle/Battler.rb#crestStats` and `Battle_Move.rb`, Crest Emporium's `Mods/cceCrest*.rb`), not just the in-game descriptions.
 
 ## Differences from Rejuvenation
 
@@ -68,6 +70,14 @@ Cobblemon has no field effects, Aevian forms or Rejuvenation-only moves, so some
 - **Suicune Crest**: ignores status damage and the burn and paralysis stat drops, and can act while asleep, frozen or paralysed. It still can't act through infatuation.
 - **Darmanitan Crest** only applies to Unovan Darmanitan; **Typhlosion, Samurott and Electrode crests** only apply to the non-Hisuian forms, as in Rejuvenation.
 - Field-specific interactions are ignored.
+
+Crest Emporium crests adapted to Cobblemon:
+
+- **Girafarig Crest**: Girafarig's second, inverted-type hit works, but it doesn't swap its own form or typing defensively.
+- **Delibird Crest**: Present is a fixed 90-power Ice move (Emporium's reworked Present) instead of the random-power move.
+- **Minior Crest**: core colours map to Red → Fire, Orange → Steel, Yellow → Electric, Green → Grass, Blue → Water, Indigo → Dark, Violet → Poison.
+- **Parasect / Beautifly / Lanturn crests**: stat drains on the foe last until that foe switches out.
+- **Xatu Crest**: Xatu always keeps one Future Sight pending, and is rewarded when Future Sight knocks a foe out.
 
 ## Building
 
@@ -85,6 +95,16 @@ The jar ends up in `build/libs/`.
 python scripts/import_rejuvenation.py "C:/path/to/Rejuvenation-14.0-windows"
 ```
 
+Then add the Crest Emporium crests back on top (the Rejuvenation import rewrites `crests.json`), using the extracted Emporium folder, and regenerate the recipes:
+
+```powershell
+python scripts/import_emporium.py "C:/path/to/Crest Emporium"
+```
+
+```powershell
+python scripts/generate_recipes.py
+```
+
 ## Testing the battle scripts
 
 `scripts/test_crests.js` runs real battles in Cobblemon's bundled Showdown engine, outside Minecraft. It checks that every crest loads and runs on its holder, and it also runs a set of behaviour checks. Extract `data/cobblemon/showdown.zip` from the Cobblemon jar first, then run:
@@ -95,4 +115,4 @@ node scripts/test_crests.js <extracted showdown folder> src/main/resources/data/
 
 ## Credits
 
-Crest designs, names, descriptions and icons are from **Pokémon Rejuvenation** by Jan and the Rejuvenation team. Pokémon is © Nintendo / Game Freak / The Pokémon Company. This is a fan project, not affiliated with any of them.
+Crest designs, names, descriptions and icons are from **Pokémon Rejuvenation** by Jan and the Rejuvenation team, and from **Crest Emporium** by KolinKat. Pokémon is © Nintendo / Game Freak / The Pokémon Company. This is a fan project, not affiliated with any of them.

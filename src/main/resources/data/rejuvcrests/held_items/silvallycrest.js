@@ -34,6 +34,6 @@
 			this.add('-fail', target, 'unboost', 'Attack', '[from] item: ' + this.effect.name, '[of] ' + target);
 		}
 	},
-	num: -2055,
+	num: -2053,
 	gen: 9,
 }

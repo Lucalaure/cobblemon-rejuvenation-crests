@@ -1,6 +1,7 @@
 package io.github.lucalaure.rejuvcrests;
 
 import net.minecraft.ChatFormatting;
+import net.minecraft.locale.Language;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.world.item.Item;
@@ -31,5 +32,13 @@ public class CrestItem extends Item {
         }
         tooltip.add(Component.translatable("tooltip.rejuvcrests.holder", holders).withStyle(ChatFormatting.GOLD));
         tooltip.add(Component.translatable(getDescriptionId() + ".desc").withStyle(ChatFormatting.GRAY));
+        // Crest Emporium gives some Rejuvenation crests a different effect on female holders.
+        String femaleKey = getDescriptionId() + ".desc_female";
+        if (Language.getInstance().has(femaleKey)) {
+            tooltip.add(Component.translatable(femaleKey).withStyle(ChatFormatting.LIGHT_PURPLE));
+        }
+        if (def.fromEmporium()) {
+            tooltip.add(Component.translatable("tooltip.rejuvcrests.emporium").withStyle(ChatFormatting.DARK_GRAY, ChatFormatting.ITALIC));
+        }
     }
 }

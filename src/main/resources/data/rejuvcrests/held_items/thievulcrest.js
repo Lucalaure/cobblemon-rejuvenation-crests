@@ -16,6 +16,6 @@
 		for (const foe of pokemon.adjacentFoes()) this.boost({spa: -1}, foe, pokemon, null, true);
 		this.boost({spa: 1}, pokemon, pokemon);
 	},
-	num: -2065,
+	num: -2063,
 	gen: 9,
 }

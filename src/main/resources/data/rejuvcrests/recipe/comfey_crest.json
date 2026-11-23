@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:fairy_gem"
+    },
+    "B": {
+      "item": "cobblemon:fairy_gem"
+    },
+    "S": {
+      "item": "minecraft:pink_tulip"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:comfey_crest",
+    "count": 1
+  }
+}

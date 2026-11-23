@@ -36,6 +36,6 @@
 	onResidual(pokemon) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Vespiquen') && this.effectState.attackStance === false) this.heal(pokemon.baseMaxhp / 16);
 	},
-	num: -2069,
+	num: -2067,
 	gen: 9,
 }

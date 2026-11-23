@@ -40,6 +40,6 @@
 		const bonus = pokemon.side.pokemon.filter(p => p !== pokemon && !p.fainted).reduce((sum, p) => sum + 0.1 * p.storedStats.spe, 0);
 		if (bonus) return Math.floor(spe * (pokemon.storedStats.spe + bonus) / pokemon.storedStats.spe);
 	},
-	num: -2016,
+	num: -2014,
 	gen: 9,
 }

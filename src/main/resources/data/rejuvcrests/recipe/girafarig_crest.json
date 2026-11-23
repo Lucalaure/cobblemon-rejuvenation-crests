@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:normal_gem"
+    },
+    "B": {
+      "item": "cobblemon:psychic_gem"
+    },
+    "S": {
+      "item": "minecraft:observer"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:girafarig_crest",
+    "count": 1
+  }
+}

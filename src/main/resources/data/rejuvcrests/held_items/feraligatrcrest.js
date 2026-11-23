@@ -17,6 +17,6 @@
 	onBasePower(basePower, pokemon, target, move) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Feraligatr') && move.flags['bite']) return this.chainModify(1.5);
 	},
-	num: -2023,
+	num: -2021,
 	gen: 9,
 }

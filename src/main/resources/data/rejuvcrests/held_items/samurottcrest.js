@@ -29,6 +29,6 @@
 	onModifyCritRatio(critRatio, source, target, move) {
 		if (((source.baseSpecies.baseSpecies === 'Samurott') && !source.baseSpecies.forme) && move && move.flags['slicing']) return 5;
 	},
-	num: -2051,
+	num: -2049,
 	gen: 9,
 }

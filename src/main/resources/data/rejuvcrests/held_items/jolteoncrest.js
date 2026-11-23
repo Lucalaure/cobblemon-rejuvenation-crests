@@ -25,6 +25,6 @@
 			move.typeChangerBoosted = this.effect;
 		}
 	},
-	num: -2031,
+	num: -2029,
 	gen: 9,
 }

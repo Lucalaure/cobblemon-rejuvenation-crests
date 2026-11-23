@@ -22,6 +22,6 @@
 		if (!(pokemon.baseSpecies.baseSpecies === 'Runerigus')) return;
 		this.heal(pokemon.baseMaxhp / 16);
 	},
-	num: -2050,
+	num: -2048,
 	gen: 9,
 }

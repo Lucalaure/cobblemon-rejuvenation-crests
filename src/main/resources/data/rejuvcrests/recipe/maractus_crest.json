@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:grass_gem"
+    },
+    "B": {
+      "item": "cobblemon:grass_gem"
+    },
+    "S": {
+      "item": "minecraft:dead_bush"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:maractus_crest",
+    "count": 1
+  }
+}

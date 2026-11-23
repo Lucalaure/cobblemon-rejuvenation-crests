@@ -18,6 +18,6 @@
 	onBasePower(basePower, pokemon, target, move) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Mightyena') && move.flags['bite']) return this.chainModify(1.5);
 	},
-	num: -2038,
+	num: -2036,
 	gen: 9,
 }

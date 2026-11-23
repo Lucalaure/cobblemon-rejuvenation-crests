@@ -18,6 +18,6 @@
 	onSourceModifySecondaries(secondaries, target, source, move) {
 		if (move.multihitType === 'rejuvcrest' && move.hit > 2) return [];
 	},
-	num: -2033,
+	num: -2031,
 	gen: 9,
 }

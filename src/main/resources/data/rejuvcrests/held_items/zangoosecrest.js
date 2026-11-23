@@ -20,6 +20,6 @@
 			return false;
 		}
 	},
-	num: -2071,
+	num: -2069,
 	gen: 9,
 }

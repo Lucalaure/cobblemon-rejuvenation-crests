@@ -18,6 +18,6 @@
 	onSourceModifyAccuracy(accuracy, target, source) {
 		if (typeof accuracy === 'number' && (source.baseSpecies.baseSpecies === 'Hypno')) return this.chainModify(1.5);
 	},
-	num: -2029,
+	num: -2027,
 	gen: 9,
 }

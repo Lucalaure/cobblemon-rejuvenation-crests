@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:grass_gem"
+    },
+    "B": {
+      "item": "cobblemon:flying_gem"
+    },
+    "S": {
+      "item": "minecraft:glow_berries"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:tropius_crest",
+    "count": 1
+  }
+}

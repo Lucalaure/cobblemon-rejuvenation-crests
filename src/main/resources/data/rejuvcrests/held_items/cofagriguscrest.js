@@ -18,6 +18,6 @@
 	onModifySpA(spa, pokemon) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Cofagrigus')) return this.chainModify(1.2);
 	},
-	num: -2011,
+	num: -2009,
 	gen: 9,
 }

@@ -18,6 +18,6 @@
 	onBasePower(basePower, attacker, defender, move) {
 		if ((attacker.baseSpecies.baseSpecies === 'Dusknoir') && move.basePower > 0 && move.basePower <= 60) return this.chainModify(1.5);
 	},
-	num: -2018,
+	num: -2016,
 	gen: 9,
 }

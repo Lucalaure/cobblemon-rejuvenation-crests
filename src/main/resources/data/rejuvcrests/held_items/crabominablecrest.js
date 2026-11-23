@@ -22,6 +22,6 @@
 	onBasePower(basePower, pokemon, target, move) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Crabominable') && pokemon.hurtThisTurn) return this.chainModify(1.5);
 	},
-	num: -2012,
+	num: -2010,
 	gen: 9,
 }

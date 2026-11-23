@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:grass_gem"
+    },
+    "B": {
+      "item": "cobblemon:poison_gem"
+    },
+    "S": {
+      "item": "minecraft:spore_blossom"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:vileplume_crest",
+    "count": 1
+  }
+}

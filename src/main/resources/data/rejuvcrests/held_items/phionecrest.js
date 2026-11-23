@@ -21,6 +21,6 @@
 	onStart(pokemon) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Phione')) pokemon.addVolatile('aquaring');
 	},
-	num: -2043,
+	num: -2041,
 	gen: 9,
 }

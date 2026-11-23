@@ -23,6 +23,6 @@
 			this.effectState.extraTurn = false;
 		}
 	},
-	num: -2007,
+	num: -2005,
 	gen: 9,
 }

@@ -38,6 +38,6 @@
 		this.add('-activate', source, 'item: ' + this.effect.name);
 		this.actions.useMove(nose, source, target);
 	},
-	num: -2045,
+	num: -2043,
 	gen: 9,
 }

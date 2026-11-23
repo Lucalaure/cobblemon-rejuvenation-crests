@@ -26,6 +26,6 @@
 	onModifySpD(spd, pokemon) {
 		if (((pokemon.baseSpecies.baseSpecies === 'Electrode') && !pokemon.baseSpecies.forme)) return Math.floor(spd * (pokemon.storedStats.spd + 0.1 * pokemon.storedStats.spe) / pokemon.storedStats.spd);
 	},
-	num: -2019,
+	num: -2017,
 	gen: 9,
 }

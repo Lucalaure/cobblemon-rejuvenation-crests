@@ -30,6 +30,6 @@
 	onAllyModifyMove(move, pokemon) {
 		if ((this.effectState.target.baseSpecies.baseSpecies === 'Raikou') && ['thunder', 'hurricane', 'bleakwindstorm', 'wildboltstorm', 'sandsearstorm'].includes(move.id)) move.accuracy = true;
 	},
-	num: -2046,
+	num: -2044,
 	gen: 9,
 }

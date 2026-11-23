@@ -29,6 +29,6 @@
 	onResidual(pokemon) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Gothitelle') && pokemon.hasType('Psychic')) this.heal(pokemon.baseMaxhp / 16);
 	},
-	num: -2028,
+	num: -2026,
 	gen: 9,
 }

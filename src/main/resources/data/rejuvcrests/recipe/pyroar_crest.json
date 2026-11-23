@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:fire_gem"
+    },
+    "B": {
+      "item": "cobblemon:normal_gem"
+    },
+    "S": {
+      "item": "minecraft:goat_horn"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:pyroar_crest",
+    "count": 1
+  }
+}

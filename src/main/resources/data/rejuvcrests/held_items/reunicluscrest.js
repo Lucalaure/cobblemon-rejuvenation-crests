@@ -39,6 +39,6 @@
 		if (this.effectState.physical) return Math.floor(spa * pokemon.storedStats.atk / pokemon.storedStats.spa);
 		return this.chainModify(1.25);
 	},
-	num: -2049,
+	num: -2047,
 	gen: 9,
 }

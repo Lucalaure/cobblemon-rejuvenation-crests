@@ -23,6 +23,6 @@
 	onResidual(pokemon) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Glaceon') && pokemon.hasAbility('icebody') && !this.field.isWeather(['hail', 'snowscape', 'snow'])) this.heal(pokemon.baseMaxhp / 16);
 	},
-	num: -2027,
+	num: -2025,
 	gen: 9,
 }

@@ -19,6 +19,6 @@
 	onImmunity(type, pokemon) {
 		if (type === 'hail' && (pokemon.baseSpecies.baseSpecies === 'Empoleon')) return false;
 	},
-	num: -2020,
+	num: -2018,
 	gen: 9,
 }

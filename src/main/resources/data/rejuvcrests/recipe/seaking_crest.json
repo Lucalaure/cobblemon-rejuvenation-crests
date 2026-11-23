@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:water_gem"
+    },
+    "B": {
+      "item": "cobblemon:water_gem"
+    },
+    "S": {
+      "item": "minecraft:fishing_rod"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:seaking_crest",
+    "count": 1
+  }
+}

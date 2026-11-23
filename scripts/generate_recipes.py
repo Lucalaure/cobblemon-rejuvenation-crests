@@ -129,6 +129,12 @@ def write(name: str, recipe: dict) -> None:
 
 
 def main() -> None:
+    # Crest Emporium crests keep their types and signature items in scripts/emporium_crests.json.
+    emporium = json.loads((REPO / "scripts" / "emporium_crests.json").read_text(encoding="utf-8"))
+    for iid, c in emporium["crests"].items():
+        TYPES[iid] = c["types"]
+        SIGNATURE[iid] = c["signature"]
+
     crests = [c["id"] for c in json.loads(CRESTS.read_text(encoding="utf-8"))]
     missing = sorted(set(crests) - set(SIGNATURE)) + sorted(set(crests) - set(TYPES))
     if missing:

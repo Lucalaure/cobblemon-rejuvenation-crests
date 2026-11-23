@@ -29,6 +29,6 @@
 		const holder = this.effectState.target;
 		if ((holder.baseSpecies.baseSpecies === 'Cherrim') && holder.hasAbility('flowergift')) return this.chainModify(1.5);
 	},
-	num: -2008,
+	num: -2006,
 	gen: 9,
 }

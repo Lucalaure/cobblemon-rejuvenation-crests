@@ -18,6 +18,6 @@
 	onAfterMoveSecondarySelf(pokemon, target, move) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Torterra') && move.totalDamage && !pokemon.forceSwitchFlag) this.heal(move.totalDamage / 8, pokemon);
 	},
-	num: -2066,
+	num: -2064,
 	gen: 9,
 }

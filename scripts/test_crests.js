@@ -137,5 +137,100 @@ const dmgTaken = (b, side = 'p2') => { const p = b[side].pokemon[0]; return p.ma
 	check('entei spread fire', b.p2.active.every(p => p.hp < p.maxhp));
 }
 
+// 3. Crest Emporium crests (by KolinKat).
+const moveLines = (b, side) => b.log.filter(l => l.startsWith(`|move|${side}a`));
+const run = (name, fn) => { try { fn(); } catch (e) { check(name, false, e.stack.split('\n').slice(0, 3).join(' | ')); } };
+run('bellossom copies dances', () => {
+	const b = battle([mon('Bellossom', 'bellossomcrest', ['splash'])], [mon('Garchomp', '', ['swordsdance'])], turns(1));
+	check('bellossom copies dances', moveLines(b, 'p1').some(l => l.includes('Swords Dance')) && b.p1.pokemon[0].boosts.spe === 1,
+		moveLines(b, 'p1').join(' '));
+});
+run('chatot copies sound + confuses', () => {
+	const b = battle([mon('Chatot', 'chatotcrest', ['splash'])], [mon('Chansey', '', ['growl'])], turns(1));
+	check('chatot copies sound + confuses', moveLines(b, 'p1').some(l => l.includes('Growl')) && !!b.p2.pokemon[0].volatiles['confusion']);
+});
+run('girafarig hits twice', () => {
+	const b = battle([mon('Girafarig', 'girafarigcrest', ['tackle'])], [mon('Chansey', '', ['splash'])], turns(1));
+	check('girafarig hits twice', moveLines(b, 'p1').length === 2, moveLines(b, 'p1').join(' '));
+});
+run('farigiraf runs', () => {
+	const b = battle([mon('Farigiraf', 'girafarigcrest', ['psychic'])], [mon('Chansey', '', ['splash'])], turns(2));
+	check('farigiraf runs', dmgTaken(b) > 0);
+});
+run('carnivine snap trap', () => {
+	const b = battle([mon('Carnivine', 'carnivinecrest', ['vinewhip'])], [mon('Chansey', '', ['splash'])], turns(1));
+	check('carnivine snap trap', !!b.p2.pokemon[0].volatiles['rejuvcrestsnaptrap']);
+});
+run('unown hidden power per party member', () => {
+	const party = [mon('Unown', 'unowncrest', ['hiddenpower']), mon('Chansey', '', ['splash']), mon('Mew', '', ['splash'])];
+	const b = battle(party, [mon('Snorlax', '', ['splash'])], turns(1));
+	check('unown hidden power per party member', b.log.some(l => l.startsWith('|-hitcount|') && l.endsWith('|3')), b.log.filter(l => l.includes('hitcount')).join(' '));
+});
+run('smeargle retypes', () => {
+	const b = battle([mon('Smeargle', 'smearglecrest', ['flamethrower', 'surf', 'protect', 'tackle'])], [mon('Chansey', '', ['splash'])], turns(1));
+	check('smeargle retypes', b.p1.pokemon[0].getTypes().join() === 'Fire,Water', b.p1.pokemon[0].getTypes().join());
+});
+run('xatu future sight', () => {
+	const b = battle([mon('Xatu', 'xatucrest', ['splash'])], [mon('Chansey', '', ['splash'])], turns(1));
+	check('xatu future sight', b.log.some(l => l.includes('Future Sight')));
+});
+run('delibird sleep + ice present', () => {
+	const b = battle([mon('Delibird', 'delibirdcrest', ['present'])], [mon('Dragonite', '', ['splash'])], turns(1));
+	check('delibird sleep + ice present', b.p2.pokemon[0].status === 'slp' && b.log.some(l => l.startsWith('|-supereffective|')), b.p2.pokemon[0].status);
+});
+run('aurorus frostbite', () => {
+	const b = battle([mon('Aurorus', 'auroruscrest', ['splash'])], [mon('Machamp', '', ['tackle'])], turns(2));
+	check('aurorus frostbite + veil', !!b.p2.pokemon[0].volatiles['rejuvcrestfrostbite'] && !!b.p1.sideConditions['auroraveil']);
+});
+run('lanturn spotlight drain', () => {
+	const b = battle([mon('Lanturn', 'lanturncrest', ['splash'])], [mon('Chansey', '', ['splash'])], turns(1));
+	check('lanturn spotlight drain', !!b.p2.pokemon[0].volatiles['rejuvcrestspotlight']);
+});
+run('cacturne spikes', () => {
+	const b = battle([mon('Cacturne', 'cacturnecrest', ['splash'])], [mon('Chansey', '', ['tackle'])], turns(1));
+	check('cacturne spikes when hit', !!b.p2.sideConditions['spikes']);
+});
+run('emolga rides wind', () => {
+	const b = battle([mon('Emolga', 'emolgacrest', ['splash'])], [mon('Pidgeot', '', ['hurricane'])], turns(1));
+	check('emolga rides wind', b.p1.pokemon[0].hp === b.p1.pokemon[0].maxhp && moveLines(b, 'p1').some(l => l.includes('Hurricane')), moveLines(b, 'p1').join(' '));
+});
+run('gourgeist trick-or-treat', () => {
+	const b = battle([mon('Gourgeist-Super', 'gourgeistcrest', ['tackle'])], [mon('Chansey', '', ['splash'])], turns(2));
+	check('gourgeist trick-or-treat', b.p2.pokemon[0].hasType('Ghost') && !!b.p2.pokemon[0].volatiles['leechseed']);
+});
+run('tyrantrum rampage', () => {
+	const b = battle([mon('Tyrantrum', 'tyrantrumcrest', ['tackle'])], [mon('Chansey', '', ['splash'])], turns(1));
+	check('tyrantrum rampage', !!b.p1.pokemon[0].volatiles['lockedmove']);
+});
+run('eldegoss defense', () => {
+	const b = battle([mon('Eldegoss', 'eldegosscrest', ['splash'], {ability: 'regenerator'})], [mon('Chansey', '', ['splash'])], turns(2));
+	check('eldegoss defense', b.p1.pokemon[0].boosts.def === 2);
+});
+run('drifblim burn heal', () => {
+	const b = battle([mon('Drifblim', 'drifblimcrest', ['splash'])], [mon('Chansey', '', ['nightshade'])], turns(1));
+	check('drifblim burn heal', b.p1.pokemon[0].status === 'brn' && b.log.some(l => l.startsWith('|-heal|p1a')));
+});
+run('chimecho heal bell', () => {
+	const b = battle([mon('Chimecho', 'chimechocrest', ['splash']), mon('Mew', '', ['splash'])], [mon('Toxapex', '', ['toxic'])], turns(1));
+	check('chimecho heal bell', !b.p1.pokemon[0].status);
+});
+run('furret female copies speed', () => {
+	const m = battle([mon('Furret', 'furretcrest', ['tackle'], {gender: 'M'})], [mon('Mew', '', ['splash'])], turns(1));
+	const f = battle([mon('Furret', 'furretcrest', ['tackle'], {gender: 'F'})], [mon('Mew', '', ['splash'])], turns(1));
+	check('furret: male sub, female no sub', !!m.p1.pokemon[0].volatiles['substitute'] && !f.p1.pokemon[0].volatiles['substitute']);
+});
+run('sunflora female sun', () => {
+	const f = battle([mon('Sunflora', 'sunfloracrest', ['splash'], {gender: 'F'})], [mon('Charizard', '', ['flamethrower'])], turns(1));
+	check('sunflora female: sun + fire immune', f.field.isWeather('sunnyday') && f.p1.pokemon[0].hp === f.p1.pokemon[0].maxhp);
+});
+run('plusle female helper', () => {
+	const f = battle([mon('Plusle', 'pluslecrest', ['tackle', 'growl', 'quickattack', 'charm'], {gender: 'F'})], [mon('Chansey', '', ['splash'])], turns(1));
+	check('plusle female helper move', moveLines(f, 'p1').some(l => l.includes('Quick Attack')), moveLines(f, 'p1').join(' '));
+});
+run('sawsbuck female type', () => {
+	const f = battle([mon('Sawsbuck', 'sawsbuckcrest', ['tackle'], {gender: 'F'})], [mon('Chansey', '', ['splash'])], turns(1));
+	check('sawsbuck female spring = fairy', f.p1.pokemon[0].getTypes().includes('Fairy'), f.p1.pokemon[0].getTypes().join());
+});
+
 console.log(failures ? `\n${failures} failure(s)` : '\nall checks passed');
 process.exit(failures ? 1 : 0);

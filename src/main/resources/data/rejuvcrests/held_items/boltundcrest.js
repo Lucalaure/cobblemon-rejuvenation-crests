@@ -14,6 +14,6 @@
 	onBasePower(basePower, pokemon, target, move) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Boltund') && move.flags['bite'] && target && !target.moveThisTurn) return this.chainModify(1.5);
 	},
-	num: -2005,
+	num: -2003,
 	gen: 9,
 }

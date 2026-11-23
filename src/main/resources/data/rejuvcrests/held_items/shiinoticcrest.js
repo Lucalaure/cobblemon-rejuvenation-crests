@@ -25,6 +25,6 @@
 		const ally = pokemon.adjacentAllies()[0];
 		if (ally && !ally.fainted && ally.addVolatile('spotlight')) this.add('-activate', pokemon, 'item: ' + this.effect.name);
 	},
-	num: -2054,
+	num: -2052,
 	gen: 9,
 }

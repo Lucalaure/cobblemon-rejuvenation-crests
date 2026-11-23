@@ -31,6 +31,6 @@
 		if (move.isMax || move.flags['futuremove'] || move.id === 'struggle') return;
 		if (source.addVolatile('disable', target) && source.volatiles['disable']) source.volatiles['disable'].duration = 2;
 	},
-	num: -2040,
+	num: -2038,
 	gen: 9,
 }

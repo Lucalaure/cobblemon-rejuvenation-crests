@@ -17,6 +17,6 @@
 	onModifyDamage(damage, source, target, move) {
 		if ((source.baseSpecies.baseSpecies === 'Seviper') && target) return this.chainModify(1 + 0.5 * target.hp / target.maxhp);
 	},
-	num: -2053,
+	num: -2051,
 	gen: 9,
 }

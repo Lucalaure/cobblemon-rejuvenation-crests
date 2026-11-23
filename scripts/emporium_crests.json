@@ -1,0 +1,620 @@
+{
+  "_comment": "Crest Emporium (a Pokemon Rejuvenation add-on by KolinKat). Crests left out: field-based ones (Froslass, Trevenant, Porygon-Z, Lumineon, Kecleon, Furfrou, Wormadam, Vivillon), Mascot, Grumpig (disabled in Emporium), and Aevian/regional parts.",
+  "crests": {
+    "ambipom_crest": {
+      "name": "Ambipom Crest",
+      "species": [
+        "ambipom"
+      ],
+      "icon": "cce_ambi",
+      "types": [
+        "normal"
+      ],
+      "signature": "minecraft:lead",
+      "desc": "Moves of 60 power or less hit twice; the second hit deals a quarter of the damage."
+    },
+    "aurorus_crest": {
+      "name": "Aurorus Crest",
+      "species": [
+        "aurorus"
+      ],
+      "icon": "cce_auror",
+      "types": [
+        "rock",
+        "ice"
+      ],
+      "signature": "minecraft:prismarine_crystals",
+      "desc": "Sets a 3-turn Aurora Veil on entry. Attackers get frostbite: they take Ice damage each turn and their contact moves turn Ice-type."
+    },
+    "avalugg_crest": {
+      "name": "Avalugg Crest",
+      "species": [
+        "avalugg"
+      ],
+      "icon": "cce_ava",
+      "types": [
+        "ice"
+      ],
+      "signature": "minecraft:snow_block",
+      "desc": "Starts hail on entry. Each turn in hail or snow, Sp. Def gains 10% of its Defense."
+    },
+    "beautifly_crest": {
+      "name": "Beautifly Crest",
+      "species": [
+        "beautifly"
+      ],
+      "icon": "cce_beau",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "signature": "minecraft:honey_bottle",
+      "desc": "Sp. Atk +20%, Speed +30%. Attacks steal 20% of the foe's Sp. Atk. HP-draining moves are 50% stronger."
+    },
+    "bellossom_crest": {
+      "name": "Bellossom Crest",
+      "species": [
+        "bellossom"
+      ],
+      "icon": "cce_bell",
+      "types": [
+        "grass"
+      ],
+      "signature": "minecraft:oxeye_daisy",
+      "desc": "Copies dance moves used by others, and its dance moves gain extra effects."
+    },
+    "cacturne_crest": {
+      "name": "Cacturne Crest",
+      "species": [
+        "cacturne"
+      ],
+      "icon": "cce_cactu",
+      "types": [
+        "grass",
+        "dark"
+      ],
+      "signature": "minecraft:cactus",
+      "desc": "Lays Spikes when hit. +1 priority on its first turn and for damaging moves of 60 power or less."
+    },
+    "carnivine_crest": {
+      "name": "Carnivine Crest",
+      "species": [
+        "carnivine"
+      ],
+      "icon": "cce_carn",
+      "types": [
+        "grass"
+      ],
+      "signature": "minecraft:tripwire_hook",
+      "desc": "Traps foes it hits or that hit it in a Snap Trap, weakening their attacks and sapping their HP."
+    },
+    "chatot_crest": {
+      "name": "Chatot Crest",
+      "species": [
+        "chatot"
+      ],
+      "icon": "cce_chat",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "signature": "minecraft:note_block",
+      "desc": "Sound moves are 20% stronger and always confuse. Copies sound moves used by others."
+    },
+    "chesnaught_crest": {
+      "name": "Chesnaught Crest",
+      "species": [
+        "chesnaught"
+      ],
+      "icon": "cce_ches",
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "signature": "minecraft:pointed_dripstone",
+      "desc": "Spiky Shield raises its defenses by 50% for a turn, and it heals from foes hurt by the spikes."
+    },
+    "chimecho_crest": {
+      "name": "Chimecho Crest",
+      "species": [
+        "chimecho"
+      ],
+      "icon": "cce_chime",
+      "types": [
+        "psychic"
+      ],
+      "signature": "minecraft:bell",
+      "desc": "Defense and Sp. Def +50%. Rings a Heal Bell every turn, curing and healing its whole party."
+    },
+    "comfey_crest": {
+      "name": "Comfey Crest",
+      "species": [
+        "comfey"
+      ],
+      "icon": "cce_comf",
+      "types": [
+        "fairy"
+      ],
+      "signature": "minecraft:pink_tulip",
+      "desc": "HP-draining moves also heal its ally by half as much. Draining is stronger while its ally is at full HP or it's alone."
+    },
+    "delibird_crest": {
+      "name": "Delibird Crest",
+      "species": [
+        "delibird"
+      ],
+      "icon": "cce_delicrest",
+      "types": [
+        "ice",
+        "flying"
+      ],
+      "signature": "minecraft:cake",
+      "desc": "Foes fall asleep when Delibird switches in. Present becomes a 90-power Ice move that hits the weaker defense and raises all of Delibird's stats by 20%."
+    },
+    "delphox_crest": {
+      "name": "Delphox Crest",
+      "species": [
+        "delphox"
+      ],
+      "icon": "cce_delp",
+      "types": [
+        "fire",
+        "psychic"
+      ],
+      "signature": "minecraft:glowstone_dust",
+      "desc": "Mystical Fire becomes Psychic-type when that's more effective, and deals 20% more to foes holding an item."
+    },
+    "drifblim_crest": {
+      "name": "Drifblim Crest",
+      "species": [
+        "drifblim"
+      ],
+      "icon": "cce_drif",
+      "types": [
+        "ghost",
+        "flying"
+      ],
+      "signature": "cobblemon:flame_orb",
+      "desc": "Burns itself on entry and heals while burned. Immune to Fire-type moves."
+    },
+    "dunsparce_crest": {
+      "name": "Dunsparce Crest",
+      "species": [
+        "dunsparce",
+        "dudunsparce"
+      ],
+      "icon": "cce_duns",
+      "types": [
+        "normal"
+      ],
+      "signature": "minecraft:rabbit_foot",
+      "desc": "Moves with unlikely side effects hit harder; moves with likely side effects make it take less damage. Restores 1/16 HP each turn."
+    },
+    "dustox_crest": {
+      "name": "Dustox Crest",
+      "species": [
+        "dustox"
+      ],
+      "icon": "cce_dust",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "signature": "minecraft:fermented_spider_eye",
+      "desc": "Defense and Sp. Def +30%. Poisons attackers, or lowers poisoned attackers' stats. Restores 1/16 HP each turn."
+    },
+    "eldegoss_crest": {
+      "name": "Eldegoss Crest",
+      "species": [
+        "eldegoss"
+      ],
+      "icon": "cce_elde",
+      "types": [
+        "grass"
+      ],
+      "signature": "minecraft:white_wool",
+      "desc": "Raises Defense every turn, gaining more effects the higher it gets. When hit, loses its Defense boosts to punish the attacker."
+    },
+    "emolga_crest": {
+      "name": "Emolga Crest",
+      "species": [
+        "emolga"
+      ],
+      "icon": "cce_emo",
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "signature": "minecraft:breeze_rod",
+      "desc": "Rides wind moves back at the attacker as Electric moves. Uses Discharge when its side uses Tailwind. Offenses grow with its Speed."
+    },
+    "frosmoth_crest": {
+      "name": "Frosmoth Crest",
+      "species": [
+        "frosmoth"
+      ],
+      "icon": "cce_frosm",
+      "types": [
+        "ice",
+        "bug"
+      ],
+      "signature": "minecraft:powder_snow_bucket",
+      "desc": "Blocks the first Fire-type attack after switching in, hurting the attacker. Takes 25% less damage from physical moves."
+    },
+    "girafarig_crest": {
+      "name": "Girafarig Crest",
+      "species": [
+        "girafarig",
+        "farigiraf"
+      ],
+      "icon": "cce_giraf",
+      "types": [
+        "normal",
+        "psychic"
+      ],
+      "signature": "minecraft:observer",
+      "desc": "Girafarig attacks twice, the second hit with the inverse type. Farigiraf's attacks gain the inverse type as a second type when it helps."
+    },
+    "gourgeist_crest": {
+      "name": "Gourgeist Crest",
+      "species": [
+        "gourgeist"
+      ],
+      "icon": "cce_gour",
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "signature": "minecraft:jack_o_lantern",
+      "desc": "Every 2 turns it plays Trick-or-Treat after moving, with effects depending on its size."
+    },
+    "greninja_crest": {
+      "name": "Greninja Crest",
+      "species": [
+        "greninja"
+      ],
+      "icon": "cce_gren",
+      "types": [
+        "water",
+        "dark"
+      ],
+      "signature": "cobblemon:razor_claw",
+      "desc": "Water Shuriken takes on whichever of the foe's own types hits it hardest."
+    },
+    "kricketune_crest": {
+      "name": "Kricketune Crest",
+      "species": [
+        "kricketune"
+      ],
+      "icon": "cce_kri",
+      "types": [
+        "bug"
+      ],
+      "signature": "minecraft:jukebox",
+      "desc": "Special moves use Attack, and its other stats gain 25% of its Attack. Physical and sound moves raise its and its ally's stats."
+    },
+    "lanturn_crest": {
+      "name": "Lanturn Crest",
+      "species": [
+        "lanturn"
+      ],
+      "icon": "cce_lant",
+      "types": [
+        "water",
+        "electric"
+      ],
+      "signature": "minecraft:sea_lantern",
+      "desc": "On switch-in, spotlights a foe and lowers its Attack and Sp. Atk by 20%, adding the same amount to Lanturn's defenses. Restores 1/16 HP each turn."
+    },
+    "leavanny_crest": {
+      "name": "Leavanny Crest",
+      "species": [
+        "leavanny"
+      ],
+      "icon": "cce_leav",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "signature": "minecraft:string",
+      "desc": "On switch-in, spends 25% HP to make a substitute for itself or a weaker ally."
+    },
+    "lurantis_crest": {
+      "name": "Lurantis Crest",
+      "species": [
+        "lurantis"
+      ],
+      "icon": "cce_lura",
+      "types": [
+        "grass"
+      ],
+      "signature": "minecraft:shears",
+      "desc": "Against a foe with a type that's super effective on it, gains +1 priority and 50% more damage."
+    },
+    "maractus_crest": {
+      "name": "Maractus Crest",
+      "species": [
+        "maractus"
+      ],
+      "icon": "cce_marac",
+      "types": [
+        "grass"
+      ],
+      "signature": "minecraft:dead_bush",
+      "desc": "Physical moves use Sp. Atk. Weather and its first move make it Fire type (Sp. Def boost) or Rock type (Defense boost)."
+    },
+    "masquerain_crest": {
+      "name": "Masquerain Crest",
+      "species": [
+        "masquerain"
+      ],
+      "icon": "cce_masq",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "signature": "minecraft:nautilus_shell",
+      "desc": "Turns its Flying type into Water but keeps Flying STAB and resistances. Gains Aqua Ring."
+    },
+    "minior_crest": {
+      "name": "Minior Crest",
+      "species": [
+        "minior"
+      ],
+      "icon": "cce_mini",
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "signature": "minecraft:firework_star",
+      "desc": "With its shell broken, its Rock moves switch to its core color's type when that's more effective."
+    },
+    "mismagius_crest": {
+      "name": "Mismagius Crest",
+      "species": [
+        "mismagius"
+      ],
+      "icon": "cce_mism",
+      "types": [
+        "ghost"
+      ],
+      "signature": "minecraft:amethyst_shard",
+      "desc": "Gains the Fairy type. Hex calls a follow-up move depending on its move slot."
+    },
+    "mothim_crest": {
+      "name": "Mothim Crest",
+      "species": [
+        "mothim"
+      ],
+      "icon": "cce_moth",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "signature": "minecraft:lantern",
+      "desc": "Speed and its higher offense +30%. Attacks hit the weaker defense. Secret Power calls a follow-up move depending on its move slot."
+    },
+    "octillery_crest": {
+      "name": "Octillery Crest",
+      "species": [
+        "octillery"
+      ],
+      "icon": "cce_octi",
+      "types": [
+        "water"
+      ],
+      "signature": "minecraft:target",
+      "desc": "Takes less damage from foes that move first. Locks on to attackers, making its ball and bomb moves always crit and hit harder against them."
+    },
+    "pachirisu_crest": {
+      "name": "Pachirisu Crest",
+      "species": [
+        "pachirisu"
+      ],
+      "icon": "cce_pachi",
+      "types": [
+        "electric"
+      ],
+      "signature": "cobblemon:cell_battery",
+      "desc": "Its defenses rise the lower its offenses are. Attacks deal extra damage equal to 10% of its defense, healing if the target is paralyzed."
+    },
+    "parasect_crest": {
+      "name": "Parasect Crest",
+      "species": [
+        "parasect"
+      ],
+      "icon": "cce_para",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "signature": "minecraft:brown_mushroom",
+      "desc": "Blocks the first Fire-type attack after switching in, hurting the attacker. Damaging moves have a 30% chance to poison, burn or paralyze, and drain 20% of a statused foe's Attack."
+    },
+    "pyroar_crest": {
+      "name": "Pyroar Crest",
+      "species": [
+        "pyroar"
+      ],
+      "icon": "cce_pyro",
+      "types": [
+        "fire",
+        "normal"
+      ],
+      "signature": "minecraft:goat_horn",
+      "desc": "Uses Noble Roar on switch-in. Special moves use its Attack boosts."
+    },
+    "qwilfish_crest": {
+      "name": "Qwilfish Crest",
+      "species": [
+        "qwilfish",
+        "overqwil"
+      ],
+      "icon": "cce_qwil",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "signature": "minecraft:pufferfish",
+      "desc": "Qwilfish: Aqua Ring on entry, Rough Skin, Sp. Def +20%. Overqwil: contact attackers are hurt and it saps their HP, more if they're poisoned."
+    },
+    "seaking_crest": {
+      "name": "Seaking Crest",
+      "species": [
+        "seaking"
+      ],
+      "icon": "cce_seak",
+      "types": [
+        "water"
+      ],
+      "signature": "minecraft:fishing_rod",
+      "desc": "Makes it rain when Seaking enters battle. Attack +20%."
+    },
+    "sigilyph_crest": {
+      "name": "Sigilyph Crest",
+      "species": [
+        "sigilyph"
+      ],
+      "icon": "cce_sigil",
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "signature": "minecraft:chiseled_stone_bricks",
+      "desc": "Every 2 turns it gives itself a status condition, then passes it to a healthy foe."
+    },
+    "smeargle_crest": {
+      "name": "Smeargle Crest",
+      "species": [
+        "smeargle"
+      ],
+      "icon": "cce_smear",
+      "types": [
+        "normal"
+      ],
+      "signature": "minecraft:painting",
+      "desc": "Smeargle's types and stats are shaped by its moveset."
+    },
+    "stunfisk_crest": {
+      "name": "Stunfisk Crest",
+      "species": [
+        "stunfisk"
+      ],
+      "icon": "cce_stun",
+      "types": [
+        "ground",
+        "electric"
+      ],
+      "signature": "minecraft:mud",
+      "desc": "Gains Water STAB and resistances. Uses Discharge when hit. Paralyzed foes get -1 priority."
+    },
+    "tropius_crest": {
+      "name": "Tropius Crest",
+      "species": [
+        "tropius"
+      ],
+      "icon": "cce_trop",
+      "types": [
+        "grass",
+        "flying"
+      ],
+      "signature": "minecraft:glow_berries",
+      "desc": "Moves of 60 power or less are 50% stronger. Grows a berry that cures status, softens a hit at full HP, or heals and raises a stat."
+    },
+    "tyrantrum_crest": {
+      "name": "Tyrantrum Crest",
+      "species": [
+        "tyrantrum"
+      ],
+      "icon": "cce_tyran",
+      "types": [
+        "rock",
+        "dragon"
+      ],
+      "signature": "minecraft:bone_block",
+      "desc": "All attacks of 120 power or less become 120 power, but lock it into a rampage."
+    },
+    "unfezant_crest": {
+      "name": "Unfezant Crest",
+      "species": [
+        "unfezant"
+      ],
+      "icon": "cce_unfe",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "signature": "cobblemon:scope_lens",
+      "desc": "Special moves use Attack. +1 crit ratio for its side. Crits lower the foe's Attack (male) or heal the attacker (female)."
+    },
+    "unown_crest": {
+      "name": "Unown Crest",
+      "species": [
+        "unown"
+      ],
+      "icon": "cce_unown",
+      "types": [
+        "psychic"
+      ],
+      "signature": "minecraft:book",
+      "desc": "Hidden Power hits once for every party member, using their Hidden Power types. Resists its party's Hidden Power types. Attack boosts its other stats."
+    },
+    "vanilluxe_crest": {
+      "name": "Vanilluxe Crest",
+      "species": [
+        "vanilluxe"
+      ],
+      "icon": "cce_vani",
+      "types": [
+        "ice"
+      ],
+      "signature": "minecraft:packed_ice",
+      "desc": "In hail or snow, Speed and Ice moves grow stronger with the weather's remaining turns. Water moves extend the hail instead of hurting it."
+    },
+    "vileplume_crest": {
+      "name": "Vileplume Crest",
+      "species": [
+        "vileplume"
+      ],
+      "icon": "cce_vile",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "signature": "minecraft:spore_blossom",
+      "desc": "Damaging moves have a 30% chance to poison, burn or paralyze. Takes 20% less damage from statused foes."
+    },
+    "watchog_crest": {
+      "name": "Watchog Crest",
+      "species": [
+        "watchog"
+      ],
+      "icon": "cce_watch",
+      "types": [
+        "normal"
+      ],
+      "signature": "minecraft:spyglass",
+      "desc": "Defenses rise the slower it is than its foe. Inaccurate moves become more accurate and more powerful."
+    },
+    "xatu_crest": {
+      "name": "Xatu Crest",
+      "species": [
+        "xatu"
+      ],
+      "icon": "cce_xatu",
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "signature": "minecraft:ender_pearl",
+      "desc": "Keeps Future Sight active. When Future Sight knocks out a foe, Xatu raises its defenses and heals."
+    }
+  },
+  "female": {
+    "furret_crest": "Female: Attack and Sp. Atk copy its Speed, and physical Normal moves become Ground-type.",
+    "sunflora_crest": "Female: summons sun that lasts while Sunflora is out, and gains Fire resistances and immunity to Fire moves.",
+    "sawsbuck_crest": "Female: Normal type becomes Fairy, Fire, Ghost or Ice by season; its first move matches and gains a seasonal side effect.",
+    "plusle_crest": "Female: above 50% HP, Minun helps out: takes half damage and follows each move with the move two slots away.",
+    "minun_crest": "Female: above 50% HP, Plusle helps out: takes half damage and follows each move with the move two slots away."
+  }
+}

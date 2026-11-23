@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:normal_gem"
+    },
+    "B": {
+      "item": "cobblemon:normal_gem"
+    },
+    "S": {
+      "item": "minecraft:painting"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:smeargle_crest",
+    "count": 1
+  }
+}

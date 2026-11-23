@@ -18,6 +18,6 @@
 	onSourceModifyDamage(damage, source, target, move) {
 		if ((target.baseSpecies.baseSpecies === 'Beheeyem') && !target.moveThisTurn) return this.chainModify([2744, 4096]);
 	},
-	num: -2004,
+	num: -2002,
 	gen: 9,
 }

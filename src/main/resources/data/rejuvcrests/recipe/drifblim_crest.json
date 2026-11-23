@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:ghost_gem"
+    },
+    "B": {
+      "item": "cobblemon:flying_gem"
+    },
+    "S": {
+      "item": "cobblemon:flame_orb"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:drifblim_crest",
+    "count": 1
+  }
+}

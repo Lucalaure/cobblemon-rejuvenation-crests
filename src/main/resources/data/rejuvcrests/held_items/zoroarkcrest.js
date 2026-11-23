@@ -21,6 +21,6 @@
 	onModifyMove(move, pokemon) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Zoroark') && pokemon.illusion && pokemon.illusion.getTypes().includes(move.type)) move.forceSTAB = true;
 	},
-	num: -2072,
+	num: -2070,
 	gen: 9,
 }

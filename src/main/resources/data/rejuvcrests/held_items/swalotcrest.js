@@ -24,6 +24,6 @@
 		}
 		if (!pokemon.fainted) pokemon.addVolatile('stockpile');
 	},
-	num: -2064,
+	num: -2062,
 	gen: 9,
 }

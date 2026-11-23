@@ -18,6 +18,6 @@
 	onModifyDamage(damage, source, target, move) {
 		if ((source.baseSpecies.baseSpecies === 'Entei')) return this.chainModify(Math.min(1.5, Math.max(1.3, 1 + Math.floor(source.maxhp / 1000))));
 	},
-	num: -2021,
+	num: -2019,
 	gen: 9,
 }

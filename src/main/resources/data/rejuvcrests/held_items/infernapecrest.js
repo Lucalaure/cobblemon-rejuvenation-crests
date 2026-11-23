@@ -24,6 +24,6 @@
 		if (!(pokemon.baseSpecies.baseSpecies === 'Infernape')) return;
 		this.heal(pokemon.baseMaxhp / 16);
 	},
-	num: -2030,
+	num: -2028,
 	gen: 9,
 }

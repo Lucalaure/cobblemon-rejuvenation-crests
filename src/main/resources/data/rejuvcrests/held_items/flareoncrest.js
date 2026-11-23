@@ -25,6 +25,6 @@
 			move.typeChangerBoosted = this.effect;
 		}
 	},
-	num: -2024,
+	num: -2022,
 	gen: 9,
 }

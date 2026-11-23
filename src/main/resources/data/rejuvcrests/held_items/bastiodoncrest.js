@@ -17,6 +17,6 @@
 		this.damage(damage / 2, source, target);
 		if (!target.fainted) this.heal(damage / 2, target, target);
 	},
-	num: -2003,
+	num: -2001,
 	gen: 9,
 }

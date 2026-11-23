@@ -17,6 +17,6 @@
 		if (move.id === 'frustration') return Math.max(250 - happiness, 1);
 		return Math.min(happiness, 250);
 	},
-	num: -2034,
+	num: -2032,
 	gen: 9,
 }

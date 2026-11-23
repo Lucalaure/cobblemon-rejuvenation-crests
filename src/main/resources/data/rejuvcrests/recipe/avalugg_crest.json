@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:ice_gem"
+    },
+    "B": {
+      "item": "cobblemon:ice_gem"
+    },
+    "S": {
+      "item": "minecraft:snow_block"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:avalugg_crest",
+    "count": 1
+  }
+}

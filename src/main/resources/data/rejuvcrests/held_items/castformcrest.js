@@ -36,6 +36,6 @@
 		if (effect.id === 'sunnyday' || effect.id === 'desolateland') this.damage(target.baseMaxhp / 8, target, target);
 		else if (effect.id === 'raindance' || effect.id === 'primordialsea') this.heal(target.baseMaxhp / 16);
 	},
-	num: -2006,
+	num: -2004,
 	gen: 9,
 }

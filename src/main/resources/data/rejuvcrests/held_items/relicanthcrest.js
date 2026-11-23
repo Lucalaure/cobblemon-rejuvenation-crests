@@ -18,6 +18,6 @@
 	onModifySpD(spd, pokemon) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Relicanth')) return this.chainModify(1.35);
 	},
-	num: -2048,
+	num: -2046,
 	gen: 9,
 }

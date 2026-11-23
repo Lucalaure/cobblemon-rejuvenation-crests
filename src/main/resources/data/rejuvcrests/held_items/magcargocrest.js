@@ -22,6 +22,6 @@
 	onModifySpA(spa, pokemon) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Magcargo')) return this.chainModify(1.2);
 	},
-	num: -2036,
+	num: -2034,
 	gen: 9,
 }

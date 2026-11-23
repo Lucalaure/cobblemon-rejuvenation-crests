@@ -3,7 +3,7 @@
   "id": "rejuvcrests",
   "version": "${version}",
   "name": "Rejuvenation Crests",
-  "description": "Adds the species-specific Crest held items from Pokémon Rejuvenation to Cobblemon.",
+  "description": "Adds the species-specific Crest held items from Pokémon Rejuvenation and KolinKat's Crest Emporium to Cobblemon.",
   "authors": ["Lucalaure"],
   "contact": {
     "sources": "https://github.com/Lucalaure/cobblemon-rejuvenation-crests"

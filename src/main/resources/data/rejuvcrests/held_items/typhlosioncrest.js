@@ -24,6 +24,6 @@
 	onBasePower(basePower, pokemon, target, move) {
 		if (move.multihitType === 'rejuvcrest' && move.hit > 1) return this.chainModify(0.3);
 	},
-	num: -2067,
+	num: -2065,
 	gen: 9,
 }

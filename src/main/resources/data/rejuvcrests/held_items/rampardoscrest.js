@@ -23,6 +23,6 @@
 			return target.hp - 1;
 		}
 	},
-	num: -2047,
+	num: -2045,
 	gen: 9,
 }

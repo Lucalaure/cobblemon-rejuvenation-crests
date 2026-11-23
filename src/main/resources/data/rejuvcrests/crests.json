@@ -1,10 +1,34 @@
 [
   {
+    "id": "ambipom_crest",
+    "showdownId": "ambipomcrest",
+    "source": "emporium",
+    "species": [
+      "ambipom"
+    ]
+  },
+  {
     "id": "ariados_crest",
     "showdownId": "ariadoscrest",
     "rejuvId": "ARIACREST",
     "species": [
       "ariados"
+    ]
+  },
+  {
+    "id": "aurorus_crest",
+    "showdownId": "auroruscrest",
+    "source": "emporium",
+    "species": [
+      "aurorus"
+    ]
+  },
+  {
+    "id": "avalugg_crest",
+    "showdownId": "avaluggcrest",
+    "source": "emporium",
+    "species": [
+      "avalugg"
     ]
   },
   {
@@ -16,6 +40,14 @@
     ]
   },
   {
+    "id": "beautifly_crest",
+    "showdownId": "beautiflycrest",
+    "source": "emporium",
+    "species": [
+      "beautifly"
+    ]
+  },
+  {
     "id": "beheeyem_crest",
     "showdownId": "beheeyemcrest",
     "rejuvId": "BEHECREST",
@@ -24,11 +56,35 @@
     ]
   },
   {
+    "id": "bellossom_crest",
+    "showdownId": "bellossomcrest",
+    "source": "emporium",
+    "species": [
+      "bellossom"
+    ]
+  },
+  {
     "id": "boltund_crest",
     "showdownId": "boltundcrest",
     "rejuvId": "BOLTCREST",
     "species": [
       "boltund"
+    ]
+  },
+  {
+    "id": "cacturne_crest",
+    "showdownId": "cacturnecrest",
+    "source": "emporium",
+    "species": [
+      "cacturne"
+    ]
+  },
+  {
+    "id": "carnivine_crest",
+    "showdownId": "carnivinecrest",
+    "source": "emporium",
+    "species": [
+      "carnivine"
     ]
   },
   {
@@ -48,11 +104,35 @@
     ]
   },
   {
+    "id": "chatot_crest",
+    "showdownId": "chatotcrest",
+    "source": "emporium",
+    "species": [
+      "chatot"
+    ]
+  },
+  {
     "id": "cherrim_crest",
     "showdownId": "cherrimcrest",
     "rejuvId": "CHERCREST",
     "species": [
       "cherrim"
+    ]
+  },
+  {
+    "id": "chesnaught_crest",
+    "showdownId": "chesnaughtcrest",
+    "source": "emporium",
+    "species": [
+      "chesnaught"
+    ]
+  },
+  {
+    "id": "chimecho_crest",
+    "showdownId": "chimechocrest",
+    "source": "emporium",
+    "species": [
+      "chimecho"
     ]
   },
   {
@@ -77,6 +157,14 @@
     "rejuvId": "COFCREST",
     "species": [
       "cofagrigus"
+    ]
+  },
+  {
+    "id": "comfey_crest",
+    "showdownId": "comfeycrest",
+    "source": "emporium",
+    "species": [
+      "comfey"
     ]
   },
   {
@@ -120,11 +208,44 @@
     ]
   },
   {
+    "id": "delibird_crest",
+    "showdownId": "delibirdcrest",
+    "source": "emporium",
+    "species": [
+      "delibird"
+    ]
+  },
+  {
+    "id": "delphox_crest",
+    "showdownId": "delphoxcrest",
+    "source": "emporium",
+    "species": [
+      "delphox"
+    ]
+  },
+  {
+    "id": "drifblim_crest",
+    "showdownId": "drifblimcrest",
+    "source": "emporium",
+    "species": [
+      "drifblim"
+    ]
+  },
+  {
     "id": "druddigon_crest",
     "showdownId": "druddigoncrest",
     "rejuvId": "DRUDDICREST",
     "species": [
       "druddigon"
+    ]
+  },
+  {
+    "id": "dunsparce_crest",
+    "showdownId": "dunsparcecrest",
+    "source": "emporium",
+    "species": [
+      "dunsparce",
+      "dudunsparce"
     ]
   },
   {
@@ -136,11 +257,35 @@
     ]
   },
   {
+    "id": "dustox_crest",
+    "showdownId": "dustoxcrest",
+    "source": "emporium",
+    "species": [
+      "dustox"
+    ]
+  },
+  {
+    "id": "eldegoss_crest",
+    "showdownId": "eldegosscrest",
+    "source": "emporium",
+    "species": [
+      "eldegoss"
+    ]
+  },
+  {
     "id": "electrode_crest",
     "showdownId": "electrodecrest",
     "rejuvId": "ELECCREST",
     "species": [
       "electrode"
+    ]
+  },
+  {
+    "id": "emolga_crest",
+    "showdownId": "emolgacrest",
+    "source": "emporium",
+    "species": [
+      "emolga"
     ]
   },
   {
@@ -192,11 +337,28 @@
     ]
   },
   {
+    "id": "frosmoth_crest",
+    "showdownId": "frosmothcrest",
+    "source": "emporium",
+    "species": [
+      "frosmoth"
+    ]
+  },
+  {
     "id": "furret_crest",
     "showdownId": "furretcrest",
     "rejuvId": "FURRCREST",
     "species": [
       "furret"
+    ]
+  },
+  {
+    "id": "girafarig_crest",
+    "showdownId": "girafarigcrest",
+    "source": "emporium",
+    "species": [
+      "girafarig",
+      "farigiraf"
     ]
   },
   {
@@ -213,6 +375,22 @@
     "rejuvId": "GOTHCREST",
     "species": [
       "gothitelle"
+    ]
+  },
+  {
+    "id": "gourgeist_crest",
+    "showdownId": "gourgeistcrest",
+    "source": "emporium",
+    "species": [
+      "gourgeist"
+    ]
+  },
+  {
+    "id": "greninja_crest",
+    "showdownId": "greninjacrest",
+    "source": "emporium",
+    "species": [
+      "greninja"
     ]
   },
   {
@@ -240,6 +418,22 @@
     ]
   },
   {
+    "id": "kricketune_crest",
+    "showdownId": "kricketunecrest",
+    "source": "emporium",
+    "species": [
+      "kricketune"
+    ]
+  },
+  {
+    "id": "lanturn_crest",
+    "showdownId": "lanturncrest",
+    "source": "emporium",
+    "species": [
+      "lanturn"
+    ]
+  },
+  {
     "id": "leafeon_crest",
     "showdownId": "leafeoncrest",
     "rejuvId": "LEAFCREST",
@@ -248,11 +442,27 @@
     ]
   },
   {
+    "id": "leavanny_crest",
+    "showdownId": "leavannycrest",
+    "source": "emporium",
+    "species": [
+      "leavanny"
+    ]
+  },
+  {
     "id": "ledian_crest",
     "showdownId": "lediancrest",
     "rejuvId": "LEDICREST",
     "species": [
       "ledian"
+    ]
+  },
+  {
+    "id": "lurantis_crest",
+    "showdownId": "lurantiscrest",
+    "source": "emporium",
+    "species": [
+      "lurantis"
     ]
   },
   {
@@ -280,6 +490,22 @@
     ]
   },
   {
+    "id": "maractus_crest",
+    "showdownId": "maractuscrest",
+    "source": "emporium",
+    "species": [
+      "maractus"
+    ]
+  },
+  {
+    "id": "masquerain_crest",
+    "showdownId": "masqueraincrest",
+    "source": "emporium",
+    "species": [
+      "masquerain"
+    ]
+  },
+  {
     "id": "meganium_crest",
     "showdownId": "meganiumcrest",
     "rejuvId": "MEGCREST",
@@ -296,11 +522,35 @@
     ]
   },
   {
+    "id": "minior_crest",
+    "showdownId": "miniorcrest",
+    "source": "emporium",
+    "species": [
+      "minior"
+    ]
+  },
+  {
     "id": "minun_crest",
     "showdownId": "minuncrest",
     "rejuvId": "MINUNCREST",
     "species": [
       "minun"
+    ]
+  },
+  {
+    "id": "mismagius_crest",
+    "showdownId": "mismagiuscrest",
+    "source": "emporium",
+    "species": [
+      "mismagius"
+    ]
+  },
+  {
+    "id": "mothim_crest",
+    "showdownId": "mothimcrest",
+    "source": "emporium",
+    "species": [
+      "mothim"
     ]
   },
   {
@@ -320,11 +570,35 @@
     ]
   },
   {
+    "id": "octillery_crest",
+    "showdownId": "octillerycrest",
+    "source": "emporium",
+    "species": [
+      "octillery"
+    ]
+  },
+  {
     "id": "oricorio_crest",
     "showdownId": "oricoriocrest",
     "rejuvId": "ORICREST",
     "species": [
       "oricorio"
+    ]
+  },
+  {
+    "id": "pachirisu_crest",
+    "showdownId": "pachirisucrest",
+    "source": "emporium",
+    "species": [
+      "pachirisu"
+    ]
+  },
+  {
+    "id": "parasect_crest",
+    "showdownId": "parasectcrest",
+    "source": "emporium",
+    "species": [
+      "parasect"
     ]
   },
   {
@@ -349,6 +623,23 @@
     "rejuvId": "PROBOCREST",
     "species": [
       "probopass"
+    ]
+  },
+  {
+    "id": "pyroar_crest",
+    "showdownId": "pyroarcrest",
+    "source": "emporium",
+    "species": [
+      "pyroar"
+    ]
+  },
+  {
+    "id": "qwilfish_crest",
+    "showdownId": "qwilfishcrest",
+    "source": "emporium",
+    "species": [
+      "qwilfish",
+      "overqwil"
     ]
   },
   {
@@ -408,6 +699,14 @@
     ]
   },
   {
+    "id": "seaking_crest",
+    "showdownId": "seakingcrest",
+    "source": "emporium",
+    "species": [
+      "seaking"
+    ]
+  },
+  {
     "id": "seviper_crest",
     "showdownId": "sevipercrest",
     "rejuvId": "SEVCREST",
@@ -421,6 +720,14 @@
     "rejuvId": "SHIINCREST",
     "species": [
       "shiinotic"
+    ]
+  },
+  {
+    "id": "sigilyph_crest",
+    "showdownId": "sigilyphcrest",
+    "source": "emporium",
+    "species": [
+      "sigilyph"
     ]
   },
   {
@@ -464,6 +771,14 @@
     ]
   },
   {
+    "id": "smeargle_crest",
+    "showdownId": "smearglecrest",
+    "source": "emporium",
+    "species": [
+      "smeargle"
+    ]
+  },
+  {
     "id": "spiritomb_crest",
     "showdownId": "spiritombcrest",
     "rejuvId": "SPIRITCREST",
@@ -478,6 +793,14 @@
     "species": [
       "stantler",
       "wyrdeer"
+    ]
+  },
+  {
+    "id": "stunfisk_crest",
+    "showdownId": "stunfiskcrest",
+    "source": "emporium",
+    "species": [
+      "stunfisk"
     ]
   },
   {
@@ -521,11 +844,51 @@
     ]
   },
   {
+    "id": "tropius_crest",
+    "showdownId": "tropiuscrest",
+    "source": "emporium",
+    "species": [
+      "tropius"
+    ]
+  },
+  {
     "id": "typhlosion_crest",
     "showdownId": "typhlosioncrest",
     "rejuvId": "TYPHCREST",
     "species": [
       "typhlosion"
+    ]
+  },
+  {
+    "id": "tyrantrum_crest",
+    "showdownId": "tyrantrumcrest",
+    "source": "emporium",
+    "species": [
+      "tyrantrum"
+    ]
+  },
+  {
+    "id": "unfezant_crest",
+    "showdownId": "unfezantcrest",
+    "source": "emporium",
+    "species": [
+      "unfezant"
+    ]
+  },
+  {
+    "id": "unown_crest",
+    "showdownId": "unowncrest",
+    "source": "emporium",
+    "species": [
+      "unown"
+    ]
+  },
+  {
+    "id": "vanilluxe_crest",
+    "showdownId": "vanilluxecrest",
+    "source": "emporium",
+    "species": [
+      "vanilluxe"
     ]
   },
   {
@@ -545,11 +908,35 @@
     ]
   },
   {
+    "id": "vileplume_crest",
+    "showdownId": "vileplumecrest",
+    "source": "emporium",
+    "species": [
+      "vileplume"
+    ]
+  },
+  {
+    "id": "watchog_crest",
+    "showdownId": "watchogcrest",
+    "source": "emporium",
+    "species": [
+      "watchog"
+    ]
+  },
+  {
     "id": "whiscash_crest",
     "showdownId": "whiscashcrest",
     "rejuvId": "WHISCREST",
     "species": [
       "whiscash"
+    ]
+  },
+  {
+    "id": "xatu_crest",
+    "showdownId": "xatucrest",
+    "source": "emporium",
+    "species": [
+      "xatu"
     ]
   },
   {

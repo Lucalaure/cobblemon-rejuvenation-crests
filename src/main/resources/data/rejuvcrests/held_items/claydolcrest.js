@@ -28,6 +28,6 @@
 		this.addMove('-anim', pokemon, move.name, target);
 		return false;
 	},
-	num: -2010,
+	num: -2008,
 	gen: 9,
 }

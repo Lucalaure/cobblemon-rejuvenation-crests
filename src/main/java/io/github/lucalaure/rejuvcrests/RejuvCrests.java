@@ -29,7 +29,12 @@ public final class RejuvCrests implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     /** One entry of data/rejuvcrests/crests.json (written by scripts/import_rejuvenation.py). */
-    public record CrestDef(String id, String showdownId, String rejuvId, List<String> species) {}
+    public record CrestDef(String id, String showdownId, String rejuvId, String source, List<String> species) {
+        /** True for crests from Crest Emporium, the Rejuvenation add-on by KolinKat. */
+        public boolean fromEmporium() {
+            return "emporium".equals(source);
+        }
+    }
 
     private static final List<CrestItem> CRESTS = new ArrayList<>();
 

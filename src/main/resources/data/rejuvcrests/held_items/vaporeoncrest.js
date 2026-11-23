@@ -27,6 +27,6 @@
 		if (!(pokemon.baseSpecies.baseSpecies === 'Vaporeon')) return;
 		this.heal(pokemon.baseMaxhp / 16);
 	},
-	num: -2068,
+	num: -2066,
 	gen: 9,
 }

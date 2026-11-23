@@ -18,6 +18,6 @@
 	onSourceModifyAccuracy(accuracy, target, source) {
 		if (typeof accuracy === 'number' && (source.baseSpecies.baseSpecies === 'Stantler' || source.baseSpecies.baseSpecies === 'Wyrdeer')) return this.chainModify(1.5);
 	},
-	num: -2061,
+	num: -2059,
 	gen: 9,
 }

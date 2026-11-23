@@ -18,6 +18,6 @@
 	onModifySpA(spa, pokemon) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Oricorio')) return this.chainModify(1.25);
 	},
-	num: -2042,
+	num: -2040,
 	gen: 9,
 }

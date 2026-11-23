@@ -13,6 +13,6 @@
 	onModifyMove(move, pokemon) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Dedenne') && move.category !== 'Status' && !move.overrideOffensiveStat) move.overrideOffensiveStat = 'spe';
 	},
-	num: -2015,
+	num: -2013,
 	gen: 9,
 }

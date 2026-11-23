@@ -22,6 +22,6 @@
 	onModifyCritRatio(critRatio, source, target) {
 		if ((source.baseSpecies.baseSpecies === 'Ariados') && target && (['psn', 'tox'].includes(target.status) || target.boosts.spe < 0)) return 5;
 	},
-	num: -2002,
+	num: -2000,
 	gen: 9,
 }

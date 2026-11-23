@@ -29,6 +29,6 @@
 		const foesFainted = pokemon.side.foe.pokemon.filter(p => p.fainted).length;
 		if (foesFainted) this.heal(pokemon.baseMaxhp * foesFainted / 16);
 	},
-	num: -2060,
+	num: -2058,
 	gen: 9,
 }

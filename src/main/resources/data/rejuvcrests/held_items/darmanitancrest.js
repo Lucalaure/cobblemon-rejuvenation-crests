@@ -15,6 +15,6 @@
 		const zen = this.dex.species.get('Darmanitan-Zen');
 		if (zen.exists) pokemon.formeChange(zen, this.effect, false, '[msg]');
 	},
-	num: -2014,
+	num: -2012,
 	gen: 9,
 }

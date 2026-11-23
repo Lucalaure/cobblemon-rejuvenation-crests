@@ -24,6 +24,6 @@
 	onWeather(target, source, effect) {
 		if ((target.baseSpecies.baseSpecies === 'Druddigon') && (effect.id === 'sunnyday' || effect.id === 'desolateland') && !target.hasItem('utilityumbrella')) this.heal(target.baseMaxhp / 16);
 	},
-	num: -2017,
+	num: -2015,
 	gen: 9,
 }

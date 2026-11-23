@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:psychic_gem"
+    },
+    "B": {
+      "item": "cobblemon:flying_gem"
+    },
+    "S": {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:sigilyph_crest",
+    "count": 1
+  }
+}

@@ -17,6 +17,6 @@
 	onDamagingHit(damage, target, source, move) {
 		if ((target.baseSpecies.baseSpecies === 'Noctowl') && source !== target) this.boost({spd: 1}, target, target);
 	},
-	num: -2041,
+	num: -2039,
 	gen: 9,
 }

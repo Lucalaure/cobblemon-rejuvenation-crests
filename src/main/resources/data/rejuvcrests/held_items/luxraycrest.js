@@ -38,6 +38,6 @@
 	onBasePower(basePower, pokemon, target, move) {
 		if (move.typeChangerBoosted === this.effect) return this.chainModify(1.2);
 	},
-	num: -2035,
+	num: -2033,
 	gen: 9,
 }

@@ -27,6 +27,6 @@
 			return null;
 		}
 	},
-	num: -2032,
+	num: -2030,
 	gen: 9,
 }

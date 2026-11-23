@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:ghost_gem"
+    },
+    "B": {
+      "item": "cobblemon:ghost_gem"
+    },
+    "S": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:mismagius_crest",
+    "count": 1
+  }
+}

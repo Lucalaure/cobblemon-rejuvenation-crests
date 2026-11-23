@@ -30,6 +30,6 @@
 	onModifySpe(spe, pokemon) {
 		if ((pokemon.baseSpecies.baseSpecies === 'Cryogonal')) return Math.floor(spe * (pokemon.storedStats.spe + 0.12 * pokemon.storedStats.spd) / pokemon.storedStats.spe);
 	},
-	num: -2013,
+	num: -2011,
 	gen: 9,
 }
