@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:ice_gem"
+    },
+    "B": {
+      "item": "cobblemon:ice_gem"
+    },
+    "S": {
+      "item": "cobblemon:ice_stone"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:glaceon_crest",
+    "count": 1
+  }
+}

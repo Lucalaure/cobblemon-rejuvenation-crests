@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:electric_gem"
+    },
+    "B": {
+      "item": "cobblemon:electric_gem"
+    },
+    "S": {
+      "item": "minecraft:bone"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:boltund_crest",
+    "count": 1
+  }
+}

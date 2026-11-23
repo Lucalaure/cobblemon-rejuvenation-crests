@@ -1,0 +1,571 @@
+[
+  {
+    "id": "ariados_crest",
+    "showdownId": "ariadoscrest",
+    "rejuvId": "ARIACREST",
+    "species": [
+      "ariados"
+    ]
+  },
+  {
+    "id": "bastiodon_crest",
+    "showdownId": "bastiodoncrest",
+    "rejuvId": "BASTCREST",
+    "species": [
+      "bastiodon"
+    ]
+  },
+  {
+    "id": "beheeyem_crest",
+    "showdownId": "beheeyemcrest",
+    "rejuvId": "BEHECREST",
+    "species": [
+      "beheeyem"
+    ]
+  },
+  {
+    "id": "boltund_crest",
+    "showdownId": "boltundcrest",
+    "rejuvId": "BOLTCREST",
+    "species": [
+      "boltund"
+    ]
+  },
+  {
+    "id": "castform_crest",
+    "showdownId": "castformcrest",
+    "rejuvId": "CASTCREST",
+    "species": [
+      "castform"
+    ]
+  },
+  {
+    "id": "celebi_crest",
+    "showdownId": "celebicrest",
+    "rejuvId": "CELECREST",
+    "species": [
+      "celebi"
+    ]
+  },
+  {
+    "id": "cherrim_crest",
+    "showdownId": "cherrimcrest",
+    "rejuvId": "CHERCREST",
+    "species": [
+      "cherrim"
+    ]
+  },
+  {
+    "id": "cinccino_crest",
+    "showdownId": "cinccinocrest",
+    "rejuvId": "CINCCREST",
+    "species": [
+      "cinccino"
+    ]
+  },
+  {
+    "id": "claydol_crest",
+    "showdownId": "claydolcrest",
+    "rejuvId": "CLAYCREST",
+    "species": [
+      "claydol"
+    ]
+  },
+  {
+    "id": "cofagrigus_crest",
+    "showdownId": "cofagriguscrest",
+    "rejuvId": "COFCREST",
+    "species": [
+      "cofagrigus"
+    ]
+  },
+  {
+    "id": "crabominable_crest",
+    "showdownId": "crabominablecrest",
+    "rejuvId": "CRABCREST",
+    "species": [
+      "crabominable"
+    ]
+  },
+  {
+    "id": "cryogonal_crest",
+    "showdownId": "cryogonalcrest",
+    "rejuvId": "CRYCREST",
+    "species": [
+      "cryogonal"
+    ]
+  },
+  {
+    "id": "darmanitan_crest",
+    "showdownId": "darmanitancrest",
+    "rejuvId": "DARMCREST",
+    "species": [
+      "darmanitan"
+    ]
+  },
+  {
+    "id": "dedenne_crest",
+    "showdownId": "dedennecrest",
+    "rejuvId": "DEDECREST",
+    "species": [
+      "dedenne"
+    ]
+  },
+  {
+    "id": "delcatty_crest",
+    "showdownId": "delcattycrest",
+    "rejuvId": "DELCREST",
+    "species": [
+      "delcatty"
+    ]
+  },
+  {
+    "id": "druddigon_crest",
+    "showdownId": "druddigoncrest",
+    "rejuvId": "DRUDDICREST",
+    "species": [
+      "druddigon"
+    ]
+  },
+  {
+    "id": "dusknoir_crest",
+    "showdownId": "dusknoircrest",
+    "rejuvId": "DUSKCREST",
+    "species": [
+      "dusknoir"
+    ]
+  },
+  {
+    "id": "electrode_crest",
+    "showdownId": "electrodecrest",
+    "rejuvId": "ELECCREST",
+    "species": [
+      "electrode"
+    ]
+  },
+  {
+    "id": "empoleon_crest",
+    "showdownId": "empoleoncrest",
+    "rejuvId": "EMPCREST",
+    "species": [
+      "empoleon"
+    ]
+  },
+  {
+    "id": "entei_crest",
+    "showdownId": "enteicrest",
+    "rejuvId": "ENTEICREST",
+    "species": [
+      "entei"
+    ]
+  },
+  {
+    "id": "fearow_crest",
+    "showdownId": "fearowcrest",
+    "rejuvId": "FEARCREST",
+    "species": [
+      "fearow"
+    ]
+  },
+  {
+    "id": "feraligatr_crest",
+    "showdownId": "feraligatrcrest",
+    "rejuvId": "FERACREST",
+    "species": [
+      "feraligatr"
+    ]
+  },
+  {
+    "id": "flareon_crest",
+    "showdownId": "flareoncrest",
+    "rejuvId": "FLARCREST",
+    "species": [
+      "flareon"
+    ]
+  },
+  {
+    "id": "flygon_crest",
+    "showdownId": "flygoncrest",
+    "rejuvId": "FLYGONCREST",
+    "species": [
+      "flygon"
+    ]
+  },
+  {
+    "id": "furret_crest",
+    "showdownId": "furretcrest",
+    "rejuvId": "FURRCREST",
+    "species": [
+      "furret"
+    ]
+  },
+  {
+    "id": "glaceon_crest",
+    "showdownId": "glaceoncrest",
+    "rejuvId": "GLACCREST",
+    "species": [
+      "glaceon"
+    ]
+  },
+  {
+    "id": "gothitelle_crest",
+    "showdownId": "gothitellecrest",
+    "rejuvId": "GOTHCREST",
+    "species": [
+      "gothitelle"
+    ]
+  },
+  {
+    "id": "hypno_crest",
+    "showdownId": "hypnocrest",
+    "rejuvId": "HYPCREST",
+    "species": [
+      "hypno"
+    ]
+  },
+  {
+    "id": "infernape_crest",
+    "showdownId": "infernapecrest",
+    "rejuvId": "INFCREST",
+    "species": [
+      "infernape"
+    ]
+  },
+  {
+    "id": "jolteon_crest",
+    "showdownId": "jolteoncrest",
+    "rejuvId": "JOLTCREST",
+    "species": [
+      "jolteon"
+    ]
+  },
+  {
+    "id": "leafeon_crest",
+    "showdownId": "leafeoncrest",
+    "rejuvId": "LEAFCREST",
+    "species": [
+      "leafeon"
+    ]
+  },
+  {
+    "id": "ledian_crest",
+    "showdownId": "lediancrest",
+    "rejuvId": "LEDICREST",
+    "species": [
+      "ledian"
+    ]
+  },
+  {
+    "id": "luvdisc_crest",
+    "showdownId": "luvdisccrest",
+    "rejuvId": "LUVCREST",
+    "species": [
+      "luvdisc"
+    ]
+  },
+  {
+    "id": "luxray_crest",
+    "showdownId": "luxraycrest",
+    "rejuvId": "LUXCREST",
+    "species": [
+      "luxray"
+    ]
+  },
+  {
+    "id": "magcargo_crest",
+    "showdownId": "magcargocrest",
+    "rejuvId": "MAGCREST",
+    "species": [
+      "magcargo"
+    ]
+  },
+  {
+    "id": "meganium_crest",
+    "showdownId": "meganiumcrest",
+    "rejuvId": "MEGCREST",
+    "species": [
+      "meganium"
+    ]
+  },
+  {
+    "id": "mightyena_crest",
+    "showdownId": "mightyenacrest",
+    "rejuvId": "MIGHTCREST",
+    "species": [
+      "mightyena"
+    ]
+  },
+  {
+    "id": "minun_crest",
+    "showdownId": "minuncrest",
+    "rejuvId": "MINUNCREST",
+    "species": [
+      "minun"
+    ]
+  },
+  {
+    "id": "ninetales_crest",
+    "showdownId": "ninetalescrest",
+    "rejuvId": "NINECREST",
+    "species": [
+      "ninetales"
+    ]
+  },
+  {
+    "id": "noctowl_crest",
+    "showdownId": "noctowlcrest",
+    "rejuvId": "NOCCREST",
+    "species": [
+      "noctowl"
+    ]
+  },
+  {
+    "id": "oricorio_crest",
+    "showdownId": "oricoriocrest",
+    "rejuvId": "ORICREST",
+    "species": [
+      "oricorio"
+    ]
+  },
+  {
+    "id": "phione_crest",
+    "showdownId": "phionecrest",
+    "rejuvId": "PHIONECREST",
+    "species": [
+      "phione"
+    ]
+  },
+  {
+    "id": "plusle_crest",
+    "showdownId": "pluslecrest",
+    "rejuvId": "PLUSLECREST",
+    "species": [
+      "plusle"
+    ]
+  },
+  {
+    "id": "probopass_crest",
+    "showdownId": "probopasscrest",
+    "rejuvId": "PROBOCREST",
+    "species": [
+      "probopass"
+    ]
+  },
+  {
+    "id": "raikou_crest",
+    "showdownId": "raikoucrest",
+    "rejuvId": "RAICREST",
+    "species": [
+      "raikou"
+    ]
+  },
+  {
+    "id": "rampardos_crest",
+    "showdownId": "rampardoscrest",
+    "rejuvId": "RAMPCREST",
+    "species": [
+      "rampardos"
+    ]
+  },
+  {
+    "id": "relicanth_crest",
+    "showdownId": "relicanthcrest",
+    "rejuvId": "RELICREST",
+    "species": [
+      "relicanth"
+    ]
+  },
+  {
+    "id": "reuniclus_crest",
+    "showdownId": "reunicluscrest",
+    "rejuvId": "REUNICREST",
+    "species": [
+      "reuniclus"
+    ]
+  },
+  {
+    "id": "runerigus_crest",
+    "showdownId": "runeriguscrest",
+    "rejuvId": "RUNECREST",
+    "species": [
+      "runerigus"
+    ]
+  },
+  {
+    "id": "samurott_crest",
+    "showdownId": "samurottcrest",
+    "rejuvId": "SAMUCREST",
+    "species": [
+      "samurott"
+    ]
+  },
+  {
+    "id": "sawsbuck_crest",
+    "showdownId": "sawsbuckcrest",
+    "rejuvId": "SAWSCREST",
+    "species": [
+      "sawsbuck"
+    ]
+  },
+  {
+    "id": "seviper_crest",
+    "showdownId": "sevipercrest",
+    "rejuvId": "SEVCREST",
+    "species": [
+      "seviper"
+    ]
+  },
+  {
+    "id": "shiinotic_crest",
+    "showdownId": "shiinoticcrest",
+    "rejuvId": "SHIINCREST",
+    "species": [
+      "shiinotic"
+    ]
+  },
+  {
+    "id": "silvally_crest",
+    "showdownId": "silvallycrest",
+    "rejuvId": "SILVCREST",
+    "species": [
+      "silvally"
+    ]
+  },
+  {
+    "id": "simipour_crest",
+    "showdownId": "simipourcrest",
+    "rejuvId": "POURCREST",
+    "species": [
+      "simipour"
+    ]
+  },
+  {
+    "id": "simisage_crest",
+    "showdownId": "simisagecrest",
+    "rejuvId": "SAGECREST",
+    "species": [
+      "simisage"
+    ]
+  },
+  {
+    "id": "simisear_crest",
+    "showdownId": "simisearcrest",
+    "rejuvId": "SEARCREST",
+    "species": [
+      "simisear"
+    ]
+  },
+  {
+    "id": "skuntank_crest",
+    "showdownId": "skuntankcrest",
+    "rejuvId": "SKUNCREST",
+    "species": [
+      "skuntank"
+    ]
+  },
+  {
+    "id": "spiritomb_crest",
+    "showdownId": "spiritombcrest",
+    "rejuvId": "SPIRITCREST",
+    "species": [
+      "spiritomb"
+    ]
+  },
+  {
+    "id": "stantler_crest",
+    "showdownId": "stantlercrest",
+    "rejuvId": "STANTCREST",
+    "species": [
+      "stantler",
+      "wyrdeer"
+    ]
+  },
+  {
+    "id": "suicune_crest",
+    "showdownId": "suicunecrest",
+    "rejuvId": "SUICREST",
+    "species": [
+      "suicune"
+    ]
+  },
+  {
+    "id": "sunflora_crest",
+    "showdownId": "sunfloracrest",
+    "rejuvId": "SUNFLORACREST",
+    "species": [
+      "sunflora"
+    ]
+  },
+  {
+    "id": "swalot_crest",
+    "showdownId": "swalotcrest",
+    "rejuvId": "SWACREST",
+    "species": [
+      "swalot"
+    ]
+  },
+  {
+    "id": "thievul_crest",
+    "showdownId": "thievulcrest",
+    "rejuvId": "THIEVCREST",
+    "species": [
+      "thievul"
+    ]
+  },
+  {
+    "id": "torterra_crest",
+    "showdownId": "torterracrest",
+    "rejuvId": "TORCREST",
+    "species": [
+      "torterra"
+    ]
+  },
+  {
+    "id": "typhlosion_crest",
+    "showdownId": "typhlosioncrest",
+    "rejuvId": "TYPHCREST",
+    "species": [
+      "typhlosion"
+    ]
+  },
+  {
+    "id": "vaporeon_crest",
+    "showdownId": "vaporeoncrest",
+    "rejuvId": "VAPORCREST",
+    "species": [
+      "vaporeon"
+    ]
+  },
+  {
+    "id": "vespiquen_crest",
+    "showdownId": "vespiquencrest",
+    "rejuvId": "VESPICREST",
+    "species": [
+      "vespiquen"
+    ]
+  },
+  {
+    "id": "whiscash_crest",
+    "showdownId": "whiscashcrest",
+    "rejuvId": "WHISCREST",
+    "species": [
+      "whiscash"
+    ]
+  },
+  {
+    "id": "zangoose_crest",
+    "showdownId": "zangoosecrest",
+    "rejuvId": "ZANGCREST",
+    "species": [
+      "zangoose"
+    ]
+  },
+  {
+    "id": "zoroark_crest",
+    "showdownId": "zoroarkcrest",
+    "rejuvId": "ZOROCREST",
+    "species": [
+      "zoroark"
+    ]
+  }
+]

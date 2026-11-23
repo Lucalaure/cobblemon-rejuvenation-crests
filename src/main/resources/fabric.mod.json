@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "rejuvcrests",
+  "version": "${version}",
+  "name": "Rejuvenation Crests",
+  "description": "Adds the species-specific Crest held items from Pokémon Rejuvenation to Cobblemon.",
+  "authors": ["Lucalaure"],
+  "contact": {
+    "sources": "https://github.com/Lucalaure/cobblemon-rejuvenation-crests"
+  },
+  "license": "MIT",
+  "icon": "assets/rejuvcrests/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["io.github.lucalaure.rejuvcrests.RejuvCrests"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "fabric-language-kotlin": "*",
+    "cobblemon": ">=1.8.0"
+  }
+}

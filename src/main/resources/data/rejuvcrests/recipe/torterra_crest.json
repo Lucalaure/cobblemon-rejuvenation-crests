@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:grass_gem"
+    },
+    "B": {
+      "item": "cobblemon:ground_gem"
+    },
+    "S": {
+      "item": "cobblemon:shell_bell"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:torterra_crest",
+    "count": 1
+  }
+}

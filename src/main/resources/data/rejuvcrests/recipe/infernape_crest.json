@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:fire_gem"
+    },
+    "B": {
+      "item": "cobblemon:fighting_gem"
+    },
+    "S": {
+      "item": "cobblemon:charcoal_stick"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:infernape_crest",
+    "count": 1
+  }
+}

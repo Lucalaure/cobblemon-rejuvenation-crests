@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:ground_gem"
+    },
+    "B": {
+      "item": "cobblemon:ghost_gem"
+    },
+    "S": {
+      "item": "minecraft:ominous_bottle"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:runerigus_crest",
+    "count": 1
+  }
+}

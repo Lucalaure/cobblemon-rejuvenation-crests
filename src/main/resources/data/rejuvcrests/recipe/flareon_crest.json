@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:fire_gem"
+    },
+    "B": {
+      "item": "cobblemon:fire_gem"
+    },
+    "S": {
+      "item": "cobblemon:fire_stone"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:flareon_crest",
+    "count": 1
+  }
+}

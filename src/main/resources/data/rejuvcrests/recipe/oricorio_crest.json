@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:fire_gem"
+    },
+    "B": {
+      "item": "cobblemon:flying_gem"
+    },
+    "S": {
+      "item": "cobblemon:swift_feather"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:oricorio_crest",
+    "count": 1
+  }
+}

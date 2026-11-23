@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:water_gem"
+    },
+    "B": {
+      "item": "cobblemon:steel_gem"
+    },
+    "S": {
+      "item": "minecraft:blue_ice"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:empoleon_crest",
+    "count": 1
+  }
+}

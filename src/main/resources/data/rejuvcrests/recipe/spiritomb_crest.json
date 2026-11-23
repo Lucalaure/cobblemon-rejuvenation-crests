@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:ghost_gem"
+    },
+    "B": {
+      "item": "cobblemon:dark_gem"
+    },
+    "S": {
+      "item": "minecraft:soul_lantern"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:spiritomb_crest",
+    "count": 1
+  }
+}

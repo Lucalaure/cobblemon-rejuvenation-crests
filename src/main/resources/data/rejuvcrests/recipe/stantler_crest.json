@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:normal_gem"
+    },
+    "B": {
+      "item": "cobblemon:normal_gem"
+    },
+    "S": {
+      "item": "cobblemon:zoom_lens"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:stantler_crest",
+    "count": 1
+  }
+}

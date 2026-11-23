@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:dark_gem"
+    },
+    "B": {
+      "item": "cobblemon:dark_gem"
+    },
+    "S": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:zoroark_crest",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:poison_gem"
+    },
+    "B": {
+      "item": "cobblemon:poison_gem"
+    },
+    "S": {
+      "item": "cobblemon:poison_barb"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:seviper_crest",
+    "count": 1
+  }
+}

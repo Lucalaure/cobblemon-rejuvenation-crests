@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:psychic_gem"
+    },
+    "B": {
+      "item": "cobblemon:psychic_gem"
+    },
+    "S": {
+      "item": "minecraft:ender_eye"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:beheeyem_crest",
+    "count": 1
+  }
+}

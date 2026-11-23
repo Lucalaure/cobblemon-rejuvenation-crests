@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:fighting_gem"
+    },
+    "B": {
+      "item": "cobblemon:ice_gem"
+    },
+    "S": {
+      "item": "cobblemon:muscle_band"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:crabominable_crest",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:ground_gem"
+    },
+    "B": {
+      "item": "cobblemon:dragon_gem"
+    },
+    "S": {
+      "item": "cobblemon:throat_spray"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:flygon_crest",
+    "count": 1
+  }
+}

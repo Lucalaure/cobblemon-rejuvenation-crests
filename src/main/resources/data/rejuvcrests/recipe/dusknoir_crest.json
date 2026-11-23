@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:ghost_gem"
+    },
+    "B": {
+      "item": "cobblemon:ghost_gem"
+    },
+    "S": {
+      "item": "cobblemon:reaper_cloth"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:dusknoir_crest",
+    "count": 1
+  }
+}

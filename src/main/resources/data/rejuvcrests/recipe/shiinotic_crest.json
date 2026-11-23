@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:grass_gem"
+    },
+    "B": {
+      "item": "cobblemon:fairy_gem"
+    },
+    "S": {
+      "item": "cobblemon:big_root"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:shiinotic_crest",
+    "count": 1
+  }
+}

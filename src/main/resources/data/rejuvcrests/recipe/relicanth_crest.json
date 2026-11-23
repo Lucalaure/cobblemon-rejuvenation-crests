@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:water_gem"
+    },
+    "B": {
+      "item": "cobblemon:rock_gem"
+    },
+    "S": {
+      "item": "cobblemon:deep_sea_scale"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:relicanth_crest",
+    "count": 1
+  }
+}

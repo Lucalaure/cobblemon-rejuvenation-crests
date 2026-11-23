@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "BXB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "cobblemon:bug_gem"
+    },
+    "B": {
+      "item": "cobblemon:flying_gem"
+    },
+    "S": {
+      "item": "cobblemon:punching_glove"
+    },
+    "X": {
+      "item": "rejuvcrests:blank_crest"
+    }
+  },
+  "result": {
+    "id": "rejuvcrests:ledian_crest",
+    "count": 1
+  }
+}
