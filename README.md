@@ -24,12 +24,12 @@ The crests show up in their own creative tab, **Rejuvenation Crests**, and can b
 
 ## Crafting
 
-First craft a **Blank Crest**: 7 gold ingots, a diamond in the centre and any evolution stone at the top.
+First craft a **Blank Crest**: a ring of 7 gold ingots with any evolution stone at the bottom middle and the centre left empty.
 
 ```
-G E G     G = gold ingot, E = any evolution stone, D = diamond
-G D G
-G G G
+G G G     G = gold ingot, E = any evolution stone
+G . G     . = empty
+G E G
 ```
 
 Then put the Blank Crest in the centre and surround it with gems matching the holder's types, plus one signature item at the top that hints at what the crest does:

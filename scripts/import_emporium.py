@@ -13,7 +13,7 @@ Reads scripts/emporium_crests.json (names, holders, descriptions, icon file name
 Battle effects live in data/rejuvcrests/held_items/*.js and are not touched.
 """
 import json
-import shutil
+from PIL import Image  # pip install pillow
 import sys
 from pathlib import Path
 
@@ -36,7 +36,8 @@ def main(emporium: Path) -> None:
         icon = emporium / "Graphics" / "Icons" / "Item" / f"{c['icon']}.png"
         if not icon.exists():
             raise SystemExit(f"Missing icon {icon}")
-        shutil.copyfile(icon, ASSETS / "textures" / "item" / f"{iid}.png")
+        # Some game icons are BMP files named .png, which Minecraft cannot read: always re-encode as real PNG.
+        Image.open(icon).convert("RGBA").save(ASSETS / "textures" / "item" / f"{iid}.png", "PNG")
         (ASSETS / "models" / "item" / f"{iid}.json").write_text(
             json.dumps({"parent": "minecraft:item/generated", "textures": {"layer0": f"rejuvcrests:item/{iid}"}}, indent=2) + "\n",
             encoding="utf-8",

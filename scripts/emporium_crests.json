@@ -10,7 +10,7 @@
       "types": [
         "normal"
       ],
-      "signature": "minecraft:lead",
+      "signature": "cobblemon:razor_claw",
       "desc": "Moves of 60 power or less hit twice; the second hit deals a quarter of the damage."
     },
     "aurorus_crest": {
@@ -35,7 +35,7 @@
       "types": [
         "ice"
       ],
-      "signature": "minecraft:snow_block",
+      "signature": "cobblemon:icy_rock",
       "desc": "Starts hail on entry. Each turn in hail or snow, Sp. Def gains 10% of its Defense."
     },
     "beautifly_crest": {
@@ -48,7 +48,7 @@
         "bug",
         "flying"
       ],
-      "signature": "minecraft:honey_bottle",
+      "signature": "cobblemon:bright_powder",
       "desc": "Sp. Atk +20%, Speed +30%. Attacks steal 20% of the foe's Sp. Atk. HP-draining moves are 50% stronger."
     },
     "bellossom_crest": {
@@ -60,7 +60,7 @@
       "types": [
         "grass"
       ],
-      "signature": "minecraft:oxeye_daisy",
+      "signature": "cobblemon:absorb_bulb",
       "desc": "Copies dance moves used by others, and its dance moves gain extra effects."
     },
     "cacturne_crest": {
@@ -73,7 +73,7 @@
         "grass",
         "dark"
       ],
-      "signature": "minecraft:cactus",
+      "signature": "cobblemon:sticky_barb",
       "desc": "Lays Spikes when hit. +1 priority on its first turn and for damaging moves of 60 power or less."
     },
     "carnivine_crest": {
@@ -85,7 +85,7 @@
       "types": [
         "grass"
       ],
-      "signature": "minecraft:tripwire_hook",
+      "signature": "cobblemon:grip_claw",
       "desc": "Traps foes it hits or that hit it in a Snap Trap, weakening their attacks and sapping their HP."
     },
     "chatot_crest": {
@@ -98,7 +98,7 @@
         "normal",
         "flying"
       ],
-      "signature": "minecraft:note_block",
+      "signature": "cobblemon:throat_spray",
       "desc": "Sound moves are 20% stronger and always confuse. Copies sound moves used by others."
     },
     "chesnaught_crest": {
@@ -111,7 +111,7 @@
         "grass",
         "fighting"
       ],
-      "signature": "minecraft:pointed_dripstone",
+      "signature": "cobblemon:rocky_helmet",
       "desc": "Spiky Shield raises its defenses by 50% for a turn, and it heals from foes hurt by the spikes."
     },
     "chimecho_crest": {
@@ -135,7 +135,7 @@
       "types": [
         "fairy"
       ],
-      "signature": "minecraft:pink_tulip",
+      "signature": "cobblemon:misty_seed",
       "desc": "HP-draining moves also heal its ally by half as much. Draining is stronger while its ally is at full HP or it's alone."
     },
     "delibird_crest": {
@@ -148,7 +148,7 @@
         "ice",
         "flying"
       ],
-      "signature": "minecraft:cake",
+      "signature": "cobblemon:lucky_egg",
       "desc": "Foes fall asleep when Delibird switches in. Present becomes a 90-power Ice move that hits the weaker defense and raises all of Delibird's stats by 20%."
     },
     "delphox_crest": {
@@ -200,7 +200,7 @@
         "bug",
         "poison"
       ],
-      "signature": "minecraft:fermented_spider_eye",
+      "signature": "cobblemon:shed_shell",
       "desc": "Defense and Sp. Def +30%. Poisons attackers, or lowers poisoned attackers' stats. Restores 1/16 HP each turn."
     },
     "eldegoss_crest": {
@@ -212,7 +212,7 @@
       "types": [
         "grass"
       ],
-      "signature": "minecraft:white_wool",
+      "signature": "cobblemon:assault_vest",
       "desc": "Raises Defense every turn, gaining more effects the higher it gets. When hit, loses its Defense boosts to punish the attacker."
     },
     "emolga_crest": {
@@ -252,7 +252,7 @@
         "normal",
         "psychic"
       ],
-      "signature": "minecraft:observer",
+      "signature": "cobblemon:destiny_knot",
       "desc": "Girafarig attacks twice, the second hit with the inverse type. Farigiraf's attacks gain the inverse type as a second type when it helps."
     },
     "gourgeist_crest": {
@@ -265,7 +265,7 @@
         "ghost",
         "grass"
       ],
-      "signature": "minecraft:jack_o_lantern",
+      "signature": "cobblemon:sweet_heart",
       "desc": "Every 2 turns it plays Trick-or-Treat after moving, with effects depending on its size."
     },
     "greninja_crest": {
@@ -316,7 +316,7 @@
         "bug",
         "grass"
       ],
-      "signature": "minecraft:string",
+      "signature": "cobblemon:mental_herb",
       "desc": "On switch-in, spends 25% HP to make a substitute for itself or a weaker ally."
     },
     "lurantis_crest": {
@@ -328,7 +328,7 @@
       "types": [
         "grass"
       ],
-      "signature": "minecraft:shears",
+      "signature": "cobblemon:life_orb",
       "desc": "Against a foe with a type that's super effective on it, gains +1 priority and 50% more damage."
     },
     "maractus_crest": {
@@ -340,7 +340,7 @@
       "types": [
         "grass"
       ],
-      "signature": "minecraft:dead_bush",
+      "signature": "cobblemon:grassy_seed",
       "desc": "Physical moves use Sp. Atk. Weather and its first move make it Fire type (Sp. Def boost) or Rock type (Defense boost)."
     },
     "masquerain_crest": {
@@ -366,7 +366,7 @@
         "rock",
         "flying"
       ],
-      "signature": "minecraft:firework_star",
+      "signature": "cobblemon:float_stone",
       "desc": "With its shell broken, its Rock moves switch to its core color's type when that's more effective."
     },
     "mismagius_crest": {
@@ -378,7 +378,7 @@
       "types": [
         "ghost"
       ],
-      "signature": "minecraft:amethyst_shard",
+      "signature": "minecraft:phantom_membrane",
       "desc": "Gains the Fairy type. Hex calls a follow-up move depending on its move slot."
     },
     "mothim_crest": {
@@ -391,7 +391,7 @@
         "bug",
         "flying"
       ],
-      "signature": "minecraft:lantern",
+      "signature": "cobblemon:weakness_policy",
       "desc": "Speed and its higher offense +30%. Attacks hit the weaker defense. Secret Power calls a follow-up move depending on its move slot."
     },
     "octillery_crest": {
@@ -403,7 +403,7 @@
       "types": [
         "water"
       ],
-      "signature": "minecraft:target",
+      "signature": "cobblemon:zoom_lens",
       "desc": "Takes less damage from foes that move first. Locks on to attackers, making its ball and bomb moves always crit and hit harder against them."
     },
     "pachirisu_crest": {
@@ -415,7 +415,7 @@
       "types": [
         "electric"
       ],
-      "signature": "cobblemon:cell_battery",
+      "signature": "cobblemon:power_belt",
       "desc": "Its defenses rise the lower its offenses are. Attacks deal extra damage equal to 10% of its defense, healing if the target is paralyzed."
     },
     "parasect_crest": {
@@ -428,7 +428,7 @@
         "bug",
         "grass"
       ],
-      "signature": "minecraft:brown_mushroom",
+      "signature": "minecraft:mycelium",
       "desc": "Blocks the first Fire-type attack after switching in, hurting the attacker. Damaging moves have a 30% chance to poison, burn or paralyze, and drain 20% of a statused foe's Attack."
     },
     "pyroar_crest": {
@@ -455,7 +455,7 @@
         "water",
         "poison"
       ],
-      "signature": "minecraft:pufferfish",
+      "signature": "cobblemon:toxic_orb",
       "desc": "Qwilfish: Aqua Ring on entry, Rough Skin, Sp. Def +20%. Overqwil: contact attackers are hurt and it saps their HP, more if they're poisoned."
     },
     "seaking_crest": {
@@ -467,7 +467,7 @@
       "types": [
         "water"
       ],
-      "signature": "minecraft:fishing_rod",
+      "signature": "minecraft:trident",
       "desc": "Makes it rain when Seaking enters battle. Attack +20%."
     },
     "sigilyph_crest": {
@@ -480,7 +480,7 @@
         "psychic",
         "flying"
       ],
-      "signature": "minecraft:chiseled_stone_bricks",
+      "signature": "cobblemon:light_clay",
       "desc": "Every 2 turns it gives itself a status condition, then passes it to a healthy foe."
     },
     "smeargle_crest": {
@@ -492,7 +492,7 @@
       "types": [
         "normal"
       ],
-      "signature": "minecraft:painting",
+      "signature": "cobblemon:blank_tm",
       "desc": "Smeargle's types and stats are shaped by its moveset."
     },
     "stunfisk_crest": {
@@ -505,7 +505,7 @@
         "ground",
         "electric"
       ],
-      "signature": "minecraft:mud",
+      "signature": "cobblemon:electric_seed",
       "desc": "Gains Water STAB and resistances. Uses Discharge when hit. Paralyzed foes get -1 priority."
     },
     "tropius_crest": {
@@ -518,7 +518,7 @@
         "grass",
         "flying"
       ],
-      "signature": "minecraft:glow_berries",
+      "signature": "cobblemon:leftovers",
       "desc": "Moves of 60 power or less are 50% stronger. Grows a berry that cures status, softens a hit at full HP, or heals and raises a stat."
     },
     "tyrantrum_crest": {
@@ -531,7 +531,7 @@
         "rock",
         "dragon"
       ],
-      "signature": "minecraft:bone_block",
+      "signature": "cobblemon:razor_fang",
       "desc": "All attacks of 120 power or less become 120 power, but lock it into a rampage."
     },
     "unfezant_crest": {
@@ -556,7 +556,7 @@
       "types": [
         "psychic"
       ],
-      "signature": "minecraft:book",
+      "signature": "minecraft:enchanted_book",
       "desc": "Hidden Power hits once for every party member, using their Hidden Power types. Resists its party's Hidden Power types. Attack boosts its other stats."
     },
     "vanilluxe_crest": {
@@ -568,7 +568,7 @@
       "types": [
         "ice"
       ],
-      "signature": "minecraft:packed_ice",
+      "signature": "minecraft:blue_ice",
       "desc": "In hail or snow, Speed and Ice moves grow stronger with the weather's remaining turns. Water moves extend the hail instead of hurting it."
     },
     "vileplume_crest": {
@@ -593,7 +593,7 @@
       "types": [
         "normal"
       ],
-      "signature": "minecraft:spyglass",
+      "signature": "minecraft:ender_eye",
       "desc": "Defenses rise the slower it is than its foe. Inaccurate moves become more accurate and more powerful."
     },
     "xatu_crest": {

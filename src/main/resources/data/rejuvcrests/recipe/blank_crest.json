@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "GEG",
-    "GDG",
-    "GGG"
+    "GGG",
+    "G G",
+    "GEG"
   ],
   "key": {
     "G": {
@@ -12,9 +12,6 @@
     },
     "E": {
       "tag": "cobblemon:evolution_stones"
-    },
-    "D": {
-      "item": "minecraft:diamond"
     }
   },
   "result": {

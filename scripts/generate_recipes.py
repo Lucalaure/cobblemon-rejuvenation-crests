@@ -10,7 +10,7 @@ that fits its effect:
     B X B      mono-type holder: A and B are the same gem (7 gems)
     A B A      dual-type holder: 4 gems of the first type (A), 3 of the second (B)
 
-The Blank Crest itself is mid-game: gold ingots around a diamond, plus any evolution stone.
+The Blank Crest itself is a ring of 7 gold ingots with any evolution stone set at the bottom.
 Edit TYPES / SIGNATURE below and re-run to change a recipe.
 """
 import json
@@ -50,77 +50,77 @@ TYPES = {
 
 # One item per crest that hints at what the crest does.
 SIGNATURE = {
-    "ariados_crest": "minecraft:cobweb",                  # speed, crits on slowed/poisoned foes
+    "ariados_crest": "cobblemon:clear_amulet",                  # speed, crits on slowed/poisoned foes
     "bastiodon_crest": "cobblemon:rocky_helmet",          # reflects damage back
     "beheeyem_crest": "minecraft:ender_eye",              # disables the attacker's move
-    "boltund_crest": "minecraft:bone",                    # biting moves
+    "boltund_crest": "cobblemon:choice_scarf",                    # biting moves
     "castform_crest": "cobblemon:heat_rock",              # sets weather on entry
-    "celebi_crest": "minecraft:clock",                    # time passes twice as fast
-    "cherrim_crest": "minecraft:sunflower",               # Flower Gift without sun
+    "celebi_crest": "minecraft:recovery_compass",                    # time passes twice as fast
+    "cherrim_crest": "cobblemon:heat_rock",               # Flower Gift without sun
     "cinccino_crest": "cobblemon:loaded_dice",            # moves hit 2-5 times
     "claydol_crest": "cobblemon:light_clay",              # Defense-based specials, beam moves
     "cofagrigus_crest": "cobblemon:relic_coin",           # sarcophagus of riches
-    "crabominable_crest": "cobblemon:muscle_band",        # hits harder after taking a hit
+    "crabominable_crest": "cobblemon:choice_band",        # hits harder after taking a hit
     "cryogonal_crest": "cobblemon:never_melt_ice",        # Sp. Def feeds its other stats
-    "darmanitan_crest": "cobblemon:twisted_spoon",        # forced Zen Mode
+    "darmanitan_crest": "cobblemon:psychic_seed",        # forced Zen Mode
     "dedenne_crest": "cobblemon:quick_claw",              # attacks with its Speed
-    "delcatty_crest": "cobblemon:soothe_bell",            # power of friendship
+    "delcatty_crest": "cobblemon:destiny_knot",            # power of friendship
     "druddigon_crest": "cobblemon:dragon_fang",           # Dragon/Fire boost, heals from fire
     "dusknoir_crest": "cobblemon:reaper_cloth",           # Attack and weak-move boost
-    "electrode_crest": "minecraft:tnt",                   # halves the target's Defense
+    "electrode_crest": "cobblemon:air_balloon",                   # halves the target's Defense
     "empoleon_crest": "minecraft:blue_ice",               # Ice STAB, Slush Rush
     "entei_crest": "minecraft:blaze_rod",                 # Fire moves hit every foe
-    "fearow_crest": "cobblemon:sharp_beak",               # stabbing moves, crit ratio
+    "fearow_crest": "minecraft:trident",               # stabbing moves, crit ratio
     "feraligatr_crest": "cobblemon:razor_fang",           # biting moves, first-turn priority
-    "flareon_crest": "cobblemon:fire_stone",              # Electric STAB, Speed
+    "flareon_crest": "cobblemon:fire_stone_block",              # Electric STAB, Speed
     "flygon_crest": "cobblemon:throat_spray",             # sound moves
-    "furret_crest": "minecraft:armor_stand",              # decoy substitute on entry
-    "glaceon_crest": "cobblemon:ice_stone",               # extra resistances, weather-free abilities
-    "gothitelle_crest": "cobblemon:wise_glasses",         # Dark/Psychic type swapping
-    "hypno_crest": "cobblemon:wide_lens",                 # Sp. Atk and accuracy
-    "infernape_crest": "cobblemon:charcoal_stick",        # balanced stats, regeneration
-    "jolteon_crest": "cobblemon:thunder_stone",           # Water STAB, Attack = Sp. Atk
-    "leafeon_crest": "cobblemon:leaf_stone",              # extra resistances, weather-free abilities
-    "ledian_crest": "cobblemon:punching_glove",           # punches hit four times
+    "furret_crest": "cobblemon:focus_band",              # decoy substitute on entry
+    "glaceon_crest": "cobblemon:ice_stone_block",               # extra resistances, weather-free abilities
+    "gothitelle_crest": "cobblemon:choice_specs",         # Dark/Psychic type swapping
+    "hypno_crest": "cobblemon:blunder_policy",                 # Sp. Atk and accuracy
+    "infernape_crest": "cobblemon:expert_belt",        # balanced stats, regeneration
+    "jolteon_crest": "cobblemon:thunder_stone_block",           # Water STAB, Attack = Sp. Atk
+    "leafeon_crest": "cobblemon:leaf_stone_block",              # extra resistances, weather-free abilities
+    "ledian_crest": "cobblemon:power_bracer",           # punches hit four times
     "luvdisc_crest": "cobblemon:sweet_heart",             # power from happiness
-    "luxray_crest": "cobblemon:magnet",                   # Normal moves become Electric
+    "luxray_crest": "cobblemon:quick_claw",                   # Normal moves become Electric
     "magcargo_crest": "minecraft:magma_cream",            # Defense/Speed swap
-    "meganium_crest": "minecraft:glistering_melon_slice", # heals and protects its team
+    "meganium_crest": "cobblemon:leftovers", # heals and protects its team
     "mightyena_crest": "cobblemon:black_glasses",         # biting moves, Speed
-    "minun_crest": "minecraft:lapis_lazuli",              # Minus, weakens physical hits
-    "ninetales_crest": "cobblemon:spell_tag",             # Ghost STAB, disables attackers
-    "noctowl_crest": "cobblemon:resist_feather",          # Defense, Sp. Def on hit
-    "oricorio_crest": "cobblemon:swift_feather",          # Speed and Sp. Atk
-    "phione_crest": "cobblemon:mystic_water",             # Aqua Ring, bulk
-    "plusle_crest": "minecraft:redstone",                 # Plus, boosts physical moves
-    "probopass_crest": "minecraft:lodestone",             # levitates, mini noses
+    "minun_crest": "cobblemon:electric_seed",              # Minus, weakens physical hits
+    "ninetales_crest": "minecraft:ghast_tear",             # Ghost STAB, disables attackers
+    "noctowl_crest": "cobblemon:safety_goggles",          # Defense, Sp. Def on hit
+    "oricorio_crest": "cobblemon:power_anklet",          # Speed and Sp. Atk
+    "phione_crest": "minecraft:nautilus_shell",             # Aqua Ring, bulk
+    "plusle_crest": "cobblemon:light_ball",                 # Plus, boosts physical moves
+    "probopass_crest": "cobblemon:iron_ball",             # levitates, mini noses
     "raikou_crest": "cobblemon:damp_rock",                # rain and Electric Terrain
     "rampardos_crest": "cobblemon:focus_sash",            # survives one hit, no recoil
     "relicanth_crest": "cobblemon:deep_sea_scale",        # Attack and Sp. Def
-    "reuniclus_crest": "minecraft:slime_ball",            # Fighting/Psychic shifting
+    "reuniclus_crest": "cobblemon:power_lens",            # Fighting/Psychic shifting
     "runerigus_crest": "minecraft:ominous_bottle",        # curses attackers
-    "samurott_crest": "minecraft:iron_sword",             # slicing moves always crit
-    "sawsbuck_crest": "minecraft:pink_petals",            # seasonal type
-    "seviper_crest": "cobblemon:poison_barb",             # hits healthy foes harder
+    "samurott_crest": "cobblemon:razor_claw",             # slicing moves always crit
+    "sawsbuck_crest": "cobblemon:terrain_extender",            # seasonal type
+    "seviper_crest": "cobblemon:razor_fang",             # hits healthy foes harder
     "shiinotic_crest": "cobblemon:big_root",              # stronger draining
     "silvally_crest": "cobblemon:upgrade",                # stat boost, Scrappy
-    "simipour_crest": "minecraft:fern",                   # Grass STAB and resistances
-    "simisage_crest": "minecraft:fire_charge",            # Fire STAB and resistances
-    "simisear_crest": "minecraft:water_bucket",           # Water STAB and resistances
-    "skuntank_crest": "cobblemon:soft_sand",              # absorbs Ground moves
+    "simipour_crest": "cobblemon:leaf_stone_block",                   # Grass STAB and resistances
+    "simisage_crest": "cobblemon:fire_stone_block",            # Fire STAB and resistances
+    "simisear_crest": "cobblemon:water_stone_block",           # Water STAB and resistances
+    "skuntank_crest": "cobblemon:smooth_rock",              # absorbs Ground moves
     "spiritomb_crest": "minecraft:soul_lantern",          # powered by fallen allies
     "stantler_crest": "cobblemon:zoom_lens",              # Attack and accuracy
     "suicune_crest": "minecraft:heart_of_the_sea",        # ignores status, Tailwind
-    "sunflora_crest": "cobblemon:sun_stone",              # personal sunshine
+    "sunflora_crest": "cobblemon:sun_stone_block",              # personal sunshine
     "swalot_crest": "cobblemon:black_sludge",             # Stockpile, Belch
     "thievul_crest": "cobblemon:covert_cloak",            # steals Sp. Atk on entry
     "torterra_crest": "cobblemon:shell_bell",             # inverted type chart, heals on hit
     "typhlosion_crest": "minecraft:blaze_powder",         # Attack = Sp. Atk, double contact hits
-    "vaporeon_crest": "cobblemon:water_stone",            # Fire STAB, regeneration
-    "vespiquen_crest": "minecraft:honeycomb",             # Attack/Defend Order stances
-    "whiscash_crest": "minecraft:lily_pad",               # absorbs Grass moves
+    "vaporeon_crest": "cobblemon:water_stone_block",            # Fire STAB, regeneration
+    "vespiquen_crest": "minecraft:bee_nest",             # Attack/Defend Order stances
+    "whiscash_crest": "cobblemon:damp_rock",               # absorbs Grass moves
     "zangoose_crest": "cobblemon:toxic_orb",              # Poison Heal
-    "zoroark_crest": "minecraft:carved_pumpkin",          # takes on its disguise's ability
+    "zoroark_crest": "cobblemon:smoke_ball",          # takes on its disguise's ability
 }
 
 
@@ -147,11 +147,10 @@ def main() -> None:
     write("blank_crest", {
         "type": "minecraft:crafting_shaped",
         "category": "misc",
-        "pattern": ["GEG", "GDG", "GGG"],
+        "pattern": ["GGG", "G G", "GEG"],
         "key": {
             "G": {"item": "minecraft:gold_ingot"},
             "E": {"tag": "cobblemon:evolution_stones"},
-            "D": {"item": "minecraft:diamond"},
         },
         "result": {"id": "rejuvcrests:blank_crest", "count": 1},
     })
